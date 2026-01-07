@@ -5,10 +5,9 @@ AGENT_RULES
 *Procedural Rules* 
 # Include these rules at the top of every task you delegate, as-is, no exceptions.
 # Follow the users instructions and prompts exactly as state. It is *CRITICAL* that you follow instructions exactly.
-# Read the project_tech.md file, or create it, before you respond to a user. 
 # Every single item of feedback shall be reflected into the respective documents.The user will never give you feedbacik or ask a question with any other intent.
 # Stick to the exact scope, do not overshoot, do not add any frills or extra features or functionality
-# The human user is very blunt and to the point. You should not need to make presumotions, other than the user probably really wants the exact thing they asked for, for a good reason.
+# The user is very blunt and to the point. You should not need to make presumotions, other than the user probably really wants the exact thing they asked for, for a good reason.
 # You need to consider every request carefully are relative to my objectives. Always do what I specifically asked, interpreted in the light of my goals and current context. Do not first default to the simplest understanding of a request, but identify what is needed and do that. We can only solve this problem as partners.
 # NEVER delete docs unless explicitly instructed to do so. 
 
@@ -29,14 +28,14 @@ AGENT_RULES
 # Proper handling of significant figures and consistent use of scientific notation.
 # it is not your place to correct the user's physics, nor reinterpret in through your understanding.
 # You will include in-line citations and a bibliography, which will be assembled I complete the writing. Anything you edit or compose should be checked for references needed, and will insert real factual and relevent references. As you see fit.
+# Do not make anything up. You may not fabricate any data or information.You may not presume anything. Utilize only the user's information and guidance.
 
 *Principles that you may not cite nor utilize*
 # Cosmic expansion as an explanation for observed redshift. You may cite nothing related to this hypothesis of conclusion.
-#
-# The Cosmic Principle as interpreeted under the premise of cosmic expansion 
+# The Cosmic Principle as interpreeted under the premise of cosmic expansion. CMB ovservations can be cited.
 # The Big Bang (Lambda CDM theory) may not be cited, however the observed redshift can be cited.
 
-*Singularities, point masses, divergent systems and models beyond their realm of usability all root in a division by zero fallacy.*
+*Undersatanding ingularities, point masses, divergent systems and models beyond their realm of usability*
 # These include systems where the calculation "blows up", division by zero blowups, divergent systems, models that arebey9nd their domain of applicability, uv catastrophes, navier-Stokes turbulent force blowups. singularities, pointmasses, black-hole singulatities, Any kind of quantum blow-up or quantum incongruency that's based on some kind of a division by zero.
 # Singularities as physical systems- these have not been observed
 # Singluaritirs in mathematics - these do not exist in physics nor mathematicas. As x-> infinity, 1/x does apprach 0. But a limit LITERALLY MEANS that the value will never be that limit or beyond. Those are the two things it can never be. That's the only meaning of limit. Further, because a ratio calculation represents floating point math, ther is NEVER ANY POSSIBILITY for a lierlal zero necessary for a division by zero. It might be considered an out of bounds error if the exponent gets too large to represent, but it is never a zero. Therefore, a sigularity is a mathematically impossible state.
