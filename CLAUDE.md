@@ -49,13 +49,20 @@ Read `agent/agent_rules.md` before making any edits. Key constraints:
 - Proper handling of significant figures and scientific notation
 - Do not fabricate data or presume information
 
-### Prohibited Concepts
-- Cosmic expansion as explanation for redshift
-- The Big Bang / Lambda-CDM theory (observations like CMB can be cited, but not the theory)
-- Singularities as physical systems (not observed)
-- Literal point masses (useful conceptually only)
-- Division by zero "blow-ups" (impossible in floating-point math)
-- Implied limits of scale (Planck scale is observational, not a domain transition)
+### Concepts That Cannot Be Used as Premises or Supporting Arguments
+
+**Important distinction:** These concepts can be discussed, analyzed, and critiqued — but they cannot be used as established facts or as premises to support arguments. This research is evaluating whether these conclusions are valid, so using them as premises would be circular reasoning.
+
+| Cannot use as premises | Can always cite |
+|------------------------|-----------------|
+| Cosmic expansion as explanation for redshift | The observed redshift data itself |
+| Big Bang / Lambda-CDM theory | CMB observations and other raw data |
+| Singularities as physical systems | The mathematical situations that produce them (to analyze/critique) |
+| Literal point masses as physical objects | Point mass as a conceptual/mathematical tool |
+| Division by zero "blow-ups" as real phenomena | The equations where these appear (to show why they're errors) |
+| Planck scale as a domain transition | Planck scale as an observational limitation |
+
+**The rule:** Observations and data are always valid. Theoretical conclusions built on that data are under scrutiny and cannot be assumed true.
 
 ### Core Principles on Singularities
 From `referenced_docs/Singularity Cases.md`:

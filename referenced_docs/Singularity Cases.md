@@ -352,7 +352,7 @@ Relativistic momentum:  p = γm₀v → ∞
 Length contraction:     L = L₀/γ → 0  as v → c
 ```
 
-**The Fix & What It Tells Us:** The divergence at v = c is not a breakdown but a fundamental feature of special relativity. Massive particles cannot reach light speed because it would require infinite energy. Massless particles (photons) travel exactly at c but experience no proper time. This singularity defines the causal structure of spacetime.
+**The Fix & What It Tells Us:** In special relativity, the Lorentz factor γ diverges as v approaches c, indicating that accelerating a massive particle to light speed would require infinite energy. Massless particles (photons) travel exactly at c and experience no proper time. The speed of light serves as the universal speed limit, preserving causality in spacetime.
 
 **Author's Clarification:** (1) There is no finite v at which γ is infinite. For every v < c, there is a finite γ. The limit v = c is asymptotic and never reached by massive particles. (2) This is not a "singularity" but an asymptotic limit—a boundary condition that defines the relationship between mass and velocity. (3) The equation produces valid, finite outputs for all representable inputs. (4) In floating point mathematics, v = c exactly is not representable for a massive particle; the denominator never reaches zero.
 
@@ -455,7 +455,7 @@ At |p² - m²c²| = 0.0001 GeV²: G ≈ 10,000 GeV⁻².
 As p² → m²c²: G → ∞.
 ```
 
-**The Fix & What It Tells Us:** The pole signals a real particle state. In scattering calculations, the iε prescription (p² - m² + iε) moves the pole off the real axis, giving meaningful results. Poles in propagators are features, not bugs—they identify physical particle masses.
+**The Fix & What It Tells Us:** The pole occurs when momentum satisfies the on-shell condition, indicating a real particle state. In scattering calculations, the iε prescription (p² - m² + iε) moves the pole off the real axis, yielding well-defined results. The pole locations correspond to physical particle masses.
 
 **Author's Clarification:** (1) There is no finite input at which G is infinite. For every p² ≠ m²c², there is a finite output. (2) The "singularity" is an asymptotic limit that defines the physical mass; it is a boundary condition rather than a reachable value. (3) The equation produces valid, finite outputs for all representable inputs. (4) In floating point mathematics, the iε prescription ensures the denominator never reaches zero; an infinitely precise match to the mass shell is not representable.
 
@@ -703,7 +703,7 @@ At Λ = 10¹⁹ GeV (Planck): ∫ ~ 10³⁸ GeV².
 As Λ → ∞: ∫ → ∞.
 ```
 
-**The Fix & What It Tells Us:** UV divergences signal that our theory is incomplete at short distances. Renormalization absorbs infinities into redefined parameters. Effective field theory philosophy: the cutoff Λ represents where new physics enters. Divergences aren't failures but messengers from higher energy scales.
+**The Fix & What It Tells Us:** UV divergences indicate that quantum field theories require renormalization at high energies. The renormalization procedure absorbs divergent quantities into redefined parameters. In effective field theory, the cutoff Λ represents the energy scale where the theory's assumptions may no longer hold and new physics could enter.
 
 **Author's Clarification:** (1) There is no divergence. For every finite Λ, the integral is finite. There is no finite input that produces an infinite output. (2) "Short distances" is a relative concept; there is no preferred scale. Both quantum and relativistic perspectives apply at all scales. (3) There is no reason to believe these models have a point where they stop working—where values become infinite or zero. (4) "Renormalization absorbs infinities" is incorrect; there are no infinities to absorb.
 
@@ -730,7 +730,7 @@ As λ → 0: B_λ → ∞.
 
 **The Fix & What It Tells Us:** This infinity contradicted experiment. Max Planck resolved it by quantizing energy, leading to Planck's Law: B_λ = (2hc²/λ⁵) × 1/(e^(hc/(λk_BT)) - 1). The exponential suppresses short wavelengths. The divergence forced the birth of quantum mechanics.
 
-**Author's Clarification:** (1) There is no catastrophe. For every finite λ, the output is finite. (2) Quantum is not a separate regime but an observational perspective that applies at all scales. (3) The Rayleigh-Jeans law works within its domain; Planck's law correctly accounts for the discrete nature of energy exchange.
+**Author's Clarification:** (1) There is no catastrophe. For every finite λ, B_λ is finite. There is no finite λ at which B_λ is infinite. (2) The "blowup" is manufactured by asserting λ = 0, which is not a representable input. In floating point mathematics, there is no such thing as an infinitely precise zero—division by zero is impossible. (3) Quantum is not a separate regime but an observational perspective that applies at all scales. (4) Planck's law incorporates energy quantization; the Rayleigh-Jeans law remains valid for long wavelengths. These are not competing theories but complementary descriptions. (5) For every finite input, there is a finite output.
 
 ---
 
@@ -754,7 +754,7 @@ At m = 0: ∫ → ∞.
 
 **The Fix & What It Tells Us:** IR divergences in QED from soft photon emission cancel when including all physical processes (Bloch-Nordsieck theorem). Massless particles cause trouble because arbitrarily low-energy modes exist. In practice, any detector has finite resolution, providing a physical IR cutoff.
 
-**Author's Clarification:** (1) There is no divergence. For every finite m, the integral is finite. (2) Physical detectors have finite resolution; proper accounting of all processes yields finite results.
+**Author's Clarification:** (1) There is no divergence. For every finite m > 0, the integral is finite. There is no finite m at which the integral is infinite. (2) The "blowup" is manufactured by asserting m = 0, which is not a representable input. In floating point mathematics, there is no such thing as an infinitely precise zero—division by zero is impossible. (3) Physical detectors have finite resolution, providing natural IR cutoffs; measured quantities are always finite. (4) For every finite input, there is a finite output.
 
 ---
 
@@ -780,7 +780,7 @@ As k_max → ∞: E_0/V → ∞.
 
 **The Fix & What It Tells Us:** Zero-point energy is real (Casimir effect) but the infinite sum is cutoff-dependent. In most physics, only energy differences matter, so the infinity cancels. The cosmological constant problem—why the observed dark energy is 10¹²⁰ times smaller than naive estimates—remains unsolved.
 
-**Author's Clarification:** (1) There is no infinite sum. Physical systems have finite extent and finite mode counts. For every finite k_max, the sum is finite. (2) The Casimir effect demonstrates that measurable physics involves energy differences, which are finite.
+**Author's Clarification:** (1) There is no infinite sum. For every finite k_max, the sum is finite. There is no finite k_max at which the sum is infinite. (2) Physical systems have finite spatial extent and therefore finite mode counts—an infinite sum over modes is a mathematical idealization, not a physical reality. (3) The "blowup" is manufactured by asserting k_max → ∞, which is not a representable input. In floating point mathematics, infinity is not a number—it's an out-of-bounds condition. (4) The Casimir effect demonstrates that measurable physics involves energy differences, which are always finite. (5) For every finite input, there is a finite output.
 
 ---
 
@@ -812,7 +812,7 @@ As N → ∞: S_N → ∞ (very slowly).
 
 **The Fix & What It Tells Us:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/12 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
 
-**Author's Clarification:** (1) There is no divergence. For every finite N, the partial sum is finite. No physical process involves infinite terms. (2) Regularization techniques are calculational conveniences; physical predictions are always finite.
+**Author's Clarification:** (1) There is no divergence. For every finite N, the partial sum S_N is finite. There is no finite N at which S_N is infinite. (2) The "blowup" is manufactured by asserting N → ∞, which is not a representable input. No physical process involves summing infinitely many terms. (3) In floating point mathematics, infinity is not a number—it's an out-of-bounds condition. (4) Regularization techniques are calculational conveniences for handling limiting behavior; physical predictions are always finite. (5) For every finite input, there is a finite output.
 
 ---
 
@@ -838,7 +838,7 @@ Optimal truncation: around n ~ 137 gives best accuracy.
 
 **The Fix & What It Tells Us:** Asymptotic series capture physics accurately when truncated appropriately—typically at the smallest term. Beyond that, non-perturbative effects (instantons) dominate. Resurgence theory shows how divergent perturbative series connect to non-perturbative physics through Borel summation.
 
-**Author's Clarification:** (1) Truncated series produce finite, accurate results. The series is a calculational tool; physical measurements are always finite. (2) "Non-perturbative effects" does not mean different physics—it means effects requiring different calculational approaches.
+**Author's Clarification:** (1) Truncated series produce finite, accurate results. For every finite truncation order n, the partial sum is finite. (2) The divergence at large n is a property of the mathematical series, not a physical infinity—optimal truncation always yields finite results. (3) "Non-perturbative effects" does not mean different physics—it means effects requiring different calculational approaches. The underlying physics remains the same. (4) Physical measurements are always finite; the series is a calculational tool.
 
 ---
 
@@ -863,7 +863,7 @@ At T = T_H: Z → ∞ (series diverges).
 
 **The Fix & What It Tells Us:** The Hagedorn temperature isn't the maximum temperature—it's where the partition function formalism breaks down. In string theory, T_H signals a phase transition where strings form a "string gas" or the system transitions to a deconfined phase. The divergence reveals qualitative change in the system's nature.
 
-**Author's Clarification:** (1) There is no divergence. For every finite T, the partition function is finite. (2) Phase transitions represent changes in system behavior, not violations of physical law or transitions to different physics.
+**Author's Clarification:** (1) There is no divergence. For every finite T < T_H, the partition function Z is finite. There is no finite T at which Z is infinite. (2) The "blowup" is manufactured by asserting T = T_H exactly, which represents a limit of the partition function formalism—not a physical infinity. (3) Phase transitions represent changes in system behavior, not violations of physical law. The physics does not "break down"—the calculational method requires modification. (4) In floating point mathematics, T = T_H exactly is not representable with infinite precision. (5) For every finite input below the critical value, there is a finite output.
 
 ---
 
@@ -887,7 +887,7 @@ As Q → Λ_Landau from below: α → ∞.
 
 **The Fix & What It Tells Us:** This "triviality" problem suggests that pure QED is not mathematically consistent to arbitrarily high energies. The divergence forces us to consider that QED must be embedded in a larger theory (like the Standard Model or a Grand Unified Theory) which modifies its high-energy behavior, or that new physics must appear to cut off the growth.
 
-**Author's Clarification:** (1) There is no pole. For every finite Q, α is finite. The Landau pole is a mathematical artifact of perturbation theory, not a physical prediction. (2) There is no "new physics" that must appear. The same physics applies at all scales; physical measurements of α are always finite.
+**Author's Clarification:** (1) There is no pole. For every finite Q < Λ_Landau, α(Q²) is finite. There is no finite Q at which α is infinite. (2) The Landau pole at Λ_Landau ≈ 10²⁸⁰ GeV is a mathematical artifact of perturbation theory, not a physical prediction—it occurs at energy scales far beyond any physical relevance. (3) There is no "new physics" that must appear at some threshold. The same physics applies at all scales; physical measurements of α are always finite. (4) In floating point mathematics, Q = Λ_Landau exactly is not representable. For every finite input, there is a finite output.
 
 ---
 
@@ -1044,7 +1044,7 @@ At v = 0.999999c: E ≈ 362 MeV.
 As v → c: E → ∞, p → ∞.
 ```
 
-**The Fix & What It Tells Us:** c is not just a speed limit but the conversion factor between space and time. Massive particles asymptotically approach c with diminishing returns. The "infinity" here is a feature: it preserves causality by preventing superluminal travel. Massless particles exist exactly at v = c.
+**The Fix & What It Tells Us:** In special relativity, c serves as both the universal speed limit and the conversion factor between space and time dimensions. Massive particles asymptotically approach c, requiring ever-increasing energy for diminishing velocity gains. The divergence at v = c enforces causality by preventing superluminal travel. Massless particles travel exactly at v = c.
 
 **Author's Clarification:** (1) For every v < c, energy and momentum are finite. The "infinity" occurs only at the asymptotic limit v = c, which massive particles never reach. (2) This is an asymptotic limit, not a singularity—it defines a boundary that cannot be crossed, not a physical infinity. (3) The equations produce valid, finite outputs for all physically realizable velocities. (4) In floating point mathematics, v = c exactly is not representable for a massive particle.
 
@@ -1071,7 +1071,7 @@ Nuclear demagnetization: T ≈ 100 pK.
 T = 0: unreachable in finite steps.
 ```
 
-**The Fix & What It Tells Us:** The Third Law isn't a technological limitation—it's fundamental. Removing the last bit of entropy requires infinite steps or infinite work. At extremely low temperatures, quantum effects dominate and classical temperature concepts break down. The coldest temperatures achieved reveal quantum ground states.
+**The Fix & What It Tells Us:** The Third Law of Thermodynamics states that absolute zero cannot be reached in a finite number of steps. As temperature approaches zero, removing the remaining entropy requires progressively more work. At extremely low temperatures, quantum effects dominate and systems approach their ground states. The coldest temperatures achieved in laboratories (~100 pK) demonstrate quantum ground state behavior.
 
 **Author's Clarification:** (1) For every T > 0, thermodynamic quantities are finite. T = 0 is an asymptotic limit that cannot be reached, not a physical singularity. (2) This is explicitly an unreachable limit—the "infinity" describes the impossibility of reaching absolute zero, not a physical infinity at that temperature. (3) Record low temperatures (100 pK) demonstrate that physics remains well-behaved; we simply cannot reach T = 0 exactly. (4) Quantum effects at low temperatures represent observational considerations, not domain transitions.
 
@@ -1189,9 +1189,9 @@ Volume change ΔV/V ≈ -8% (ice less dense).
 At transition: G continuous, but dG/dT and dG/dP discontinuous.
 ```
 
-**The Fix & What It Tells Us:** Cusps and kinks indicate first-order phase transitions or boundary conditions. The discontinuity in dG/dT = -S means entropy jumps—latent heat is released/absorbed. These are not mathematical pathologies but signatures of phase coexistence. Ehrenfest classified phase transitions by which derivative of G is discontinuous.
+**The Fix & What It Tells Us:** Cusps and kinks in thermodynamic potentials indicate first-order phase transitions. The discontinuity in dG/dT = -S corresponds to an entropy jump, with latent heat released or absorbed during the transition. These discontinuities mark phase coexistence regions. Ehrenfest classified phase transitions by which derivative of the Gibbs free energy is discontinuous.
 
-**Author's Clarification:** (C2, C4, C6) The "discontinuity" exists only at the exact transition point, which cannot be represented numerically. At every computable temperature near the transition, the function and its derivatives are well-defined.
+**Author's Clarification:** (1) The "discontinuity" in dG/dT exists only at the exact transition temperature, which cannot be represented with infinite precision. (2) For every computable T, Gibbs free energy and its derivatives are finite and well-defined. (3) In floating point mathematics, there is no such thing as an infinitely precise temperature value—the exact transition point T_m is a limit, not a representable input. (4) Physical measurements always occur at finite temperatures with finite precision; the mathematical discontinuity is never physically realized.
 
 ---
 
@@ -1276,7 +1276,7 @@ At T = 1043.001 K (|T-T_c| = 0.001 K): χ ~ (0.001)^(-1.2) ≈ 2500 times larger
 As T → T_c: χ → ∞. The material becomes infinitely sensitive to external fields.
 ```
 
-**The Fix & What It Tells Us:** Critical singularities with universal exponents reveal deep connections between different physical systems. Renormalization group theory explains why systems as different as magnets and fluids share the same exponents—they belong to the same universality class. These singularities are features, not bugs: they mark continuous phase transitions and signal collective behavior where fluctuations occur at all length scales.
+**The Fix & What It Tells Us:** At critical points, susceptibility and correlation length diverge with universal power-law exponents. Renormalization group theory explains why different physical systems (magnets, fluids, etc.) share the same critical exponents when they belong to the same universality class. These divergences mark continuous (second-order) phase transitions where fluctuations occur at all length scales.
 
 **Author's Clarification:** (1) For every |T - T_c| > 0, susceptibility and correlation length are finite. The "divergence" occurs only at T = T_c exactly. (2) Physical measurements have finite temperature resolution; T = T_c exactly is not precisely achievable. (3) Experimental measurements always yield finite values of χ and ξ. (4) The divergence is a theoretical limiting behavior that signals the approach to a critical point, not a physical infinity.
 
@@ -1309,7 +1309,7 @@ After 2π rotation (z = 1): √z = -1 (not +1!).
 After 4π rotation (z = 1): √z = +1 (back to start).
 ```
 
-**The Fix & What It Tells Us:** Branch points are not pathologies—they encode essential physics. The multi-valuedness of √z reflects that the function naturally lives on a double-cover of the complex plane (Riemann surface). In physics, branch points at k = ±im mark particle production thresholds; their locations determine masses.
+**The Fix & What It Tells Us:** Branch points arise where complex functions become multi-valued. The function √z naturally lives on a two-sheeted Riemann surface, with z = 0 as the branch point connecting the sheets. In physics, branch points at k = ±im mark particle production thresholds, with their locations determining particle masses.
 
 **Author's Clarification:** (1) Branch points are mathematical features of complex analysis, not physical singularities. (2) For every z ≠ 0, √z is well-defined once a branch is chosen. (3) The multi-valuedness is a property of the mathematical representation, not of physical observables. (4) Physical quantities extracted from these functions are always finite and single-valued.
 
@@ -1628,9 +1628,10 @@ At t = 1 Planck time (~5.39×10⁻⁴⁴ sec): ρ ≈ ρ₁ × 3.44×10⁸⁷.
 At t = 0: ρ → ∞.
 ```
 
-**The Fix & What It Tells Us:** As the scale factor a → 0, density and spacetime curvature diverge—this is the initial cosmological singularity. The divergence signals a breakdown of General Relativity at extreme conditions, indicating that a quantum theory of gravity is needed to describe what occurs at t = 0.
+**The Fix & What It Tells Us:** As the scale factor a → 0, density and spacetime curvature diverge—this is the initial cosmological singularity predicted by the Penrose-Hawking singularity theorems. Standard cosmology interprets this as the "beginning" of the universe, where all matter and energy were concentrated at infinite density. The divergence is taken to signal a breakdown of General Relativity at extreme conditions, with the expectation that a quantum theory of gravity would be needed to describe physics at or near t = 0.
 
-**Author's Clarification:** (1) The scale factor a = 0 doesn't actually exist, nor does the point in time t = 0. Those are things that are limits that are only asymptotically approached. So even in the Big Bang Theory, there really isn't a tangible "begin"ning of time". (2) It is possible that the interpretation of an expanding universe is not correct, and that the observed phenomenon can be explained with other first principles-based phenomena. (3) The equation cited has a finite output for every finite input; p never reaches infinity, and time never reaches zero.
+**Author's Clarification:** (1) There is no finite t at which ρ is infinite. For every t > 0, there is a finite density. The "singularity" at t = 0 is an asymptotic limit, not an achieved state. (2) The "blowup" is manufactured by asserting t = 0, which is not a representable input. In floating point mathematics, there is no such thing as an infinitely precise zero—t = 0 exactly cannot be computed or physically realized. (3) Even within the Big Bang framework, t = 0 and a = 0 are limits that are only asymptotically approached; there is no tangible "beginning of time" where density was literally infinite. (4) The observed redshift and CMB data are valid observations; however, the interpretation of an expanding universe from an initial singularity is a theoretical conclusion, not an observation. Alternative first-principles explanations for these phenomena remain possible. (5) The Friedmann equation produces valid, finite outputs for every representable input. For every finite input, there is a finite output.
+
 ---
 
 ### 12.2 The Big Rip (Cosmological Future Singularity)
@@ -1726,12 +1727,12 @@ Proton size: ~10⁻¹⁵ m (10²⁰ × l_P).
 LHC probe: ~10⁻¹⁹ m (10¹⁶ × l_P).
 GUT scale: ~10⁻³¹ m (10⁴ × l_P).
 Planck scale: 1.6×10⁻³⁵ m (l_P).
-Below l_P: spacetime itself fluctuates; "distance" undefined.
+Below l_P: standard physics predicts quantum gravitational effects dominate; direct measurement is not currently possible.
 ```
 
-**The Fix & What It Tells Us:** The Planck scale is where quantum and gravitational effects are equally strong. We don't know what happens there—string theory, loop quantum gravity, and other approaches attempt to describe it. The scale is so remote (current experiments probe 10¹⁶ times larger) that we may never directly test it, but it's where all roads of fundamental physics converge.
+**The Fix & What It Tells Us:** The Planck scale is defined as where quantum and gravitational effects would be of comparable strength. Standard physics treats this as a fundamental threshold where current theories (General Relativity and Quantum Field Theory) are expected to break down, requiring a unified theory of quantum gravity. Proposed approaches include string theory, loop quantum gravity, and causal set theory. Some interpretations suggest spacetime itself may become discrete or exhibit quantum fluctuations at this scale. The scale is extremely remote—current experiments probe distances roughly 10¹⁶ times larger—making direct experimental tests impractical with current technology.
 
-**Author's Clarification:** (1) Planck scale is not a domain transition—both quantum and relativistic physics apply at all scales. (2) Planck scale represents a transition of observability, not physical law. (3) The claim that "we don't know what happens there" overstates uncertainty—the physics is the same; our observational methods become statistically inadequate. (4) There is no physical discontinuity or singularity at the Planck scale; it is simply the scale where our current observational techniques transition from direct measurement to statistical inference.
+**Author's Clarification:** (1) There is no finite length at which physics changes or becomes undefined. For every finite length l > 0, physical laws produce finite, well-defined outputs. The Planck scale is not a singularity—it is a characteristic scale derived from fundamental constants, nothing more. (2) Planck scale is not a domain transition; both quantum and relativistic physics apply at all scales. There is no threshold where one set of laws "takes over" from another. The same physics operates at every scale. (3) The distinction between quantum and relativistic frameworks is observational, not ontological. The relativistic perspective describes discrete objects that we can observe directly—measuring their individual positions, velocities, and trajectories. The quantum perspective emerges when we can only observe systems statistically, as collections of particles whose individual states cannot be directly resolved. Both perspectives describe the same underlying reality; they differ in how we gather information about it. (4) At the Planck scale, we cannot observe individual objects directly—we can only make statistical inferences. But this does not mean physics "breaks down" or that spacetime "fluctuates." Objects at that scale continue to exist as discrete systems with definite properties. From the perspective of an object at any scale, time proceeds normally and physics behaves consistently. If an observer could scale down to the Planck length, they would see objects with spatial extent, moving at familiar rates, with the same level of detail and nuance we observe at macroscopic scales. (5) The claim that "we don't know what happens" at the Planck scale overstates the uncertainty. We cannot directly observe what happens there, but this is an observational limitation, not a change in physical law. (6) In floating point mathematics, there is no infinitely precise length—l = 0 exactly is not a representable input. For every finite input, there is a finite output. There is no singularity at the Planck scale.
 
 ---
 
