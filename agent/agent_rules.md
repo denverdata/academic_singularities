@@ -31,9 +31,19 @@ AGENT_RULES
 # Do not make anything up. You may not fabricate any data or information.You may not presume anything. Utilize only the user's information and guidance.
 
 *Principles that you may not cite nor utilize*
+Because the author is evaluating a premise that would render cosmic expansion a false conclusion, you may not cite, as part of your argument, anything related to cosmic expansion. However, you may cite any and every observation made that would have led to that conclusion. So there's no data that's off-limits. There are only past conclusions that we need to be able to objectively consider. This is not to imply that we will not evaluate those principles. You may not use these principles as part of your argument. You must not honor cosmic expansion in the context of this study.
 # Cosmic expansion as an explanation for observed redshift. You may cite nothing related to this hypothesis of conclusion.
 # The Cosmic Principle as interpreeted under the premise of cosmic expansion. CMB ovservations can be cited.
 # The Big Bang (Lambda CDM theory) may not be cited, however the observed redshift can be cited.
+
+*The following topics must not be treated as a single principle. these separate relatedthings that have separate arcs of evolution and separate interpretations. When referring to any of these, always interpret the questions as pertaining to the final state, not at some intermediate part of its evolution.
+So when I talk about general relativity, I want to talk about the current understanding of general relativity. When I ask about Einstein's perspective, I want to know about his last perspective while he was living. If I'm curious about cosmic expansion, I wanna know the latest on what we believe there. I don't want some outdated version of it.
+When you talk about lambda CDM, I want to know the current version of lambda CDM, not some prior version. The author sees all these things as very different and distinct but very interrelated. 
+# General relativity 
+# Quantum Mechanics 
+# Einsteins perspective 
+# Cosmic expansion. 
+# Lambda CDM 
 
 *Undersatanding ingularities, point masses, divergent systems and models beyond their realm of usability*
 # These include systems where the calculation "blows up", division by zero blowups, divergent systems, models that arebey9nd their domain of applicability, uv catastrophes, navier-Stokes turbulent force blowups. singularities, pointmasses, black-hole singulatities, Any kind of quantum blow-up or quantum incongruency that's based on some kind of a division by zero.

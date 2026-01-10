@@ -178,7 +178,7 @@ Gravitational acceleration becomes infinite at a point mass.
 **Numerical Blowout (for Earth, M ≈ 6×10²⁴ kg):**
 ```
 At r = 6371 km (surface): g ≈ 9.8 m/s².
-At r = 100 km: g ≈ 4×10⁵ m/s².
+At r = 100 km: g ≈ 4×10⁴ m/s².
 At r = 1 m: g ≈ 4×10¹⁴ m/s².
 As r → 0: g → ∞.
 ```
@@ -203,9 +203,9 @@ Differential gravitational force across an extended body diverges.
 
 **Numerical Blowout (for solar-mass object, M ≈ 2×10³⁰ kg, d = 1 m):**
 ```
-At r = 1 AU: F_tidal/m ≈ 10⁻⁷ m/s² (negligible).
-At r = 1000 km: F_tidal/m ≈ 3×10⁸ m/s² (destructive).
-At r = 10 km: F_tidal/m ≈ 3×10¹⁴ m/s² (spaghettification).
+At r = 1 AU: F_tidal/m ≈ 8×10⁻¹⁴ m/s² (negligible).
+At r = 1000 km: F_tidal/m ≈ 3×10² m/s² (destructive).
+At r = 10 km: F_tidal/m ≈ 3×10⁸ m/s² (spaghettification).
 As r → 0: F_tidal → ∞.
 ```
 
