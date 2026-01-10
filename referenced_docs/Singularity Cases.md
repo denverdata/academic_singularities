@@ -651,7 +651,7 @@ At ε = 10⁻¹⁰⁰: ∫ = 230.
 As ε → 0: ∫ → ∞ (slowly).
 ```
 
-
+**The Fix & What It Tells Us:** Logarithmic divergences are the "mildest" infinities—they grow slowly and often cancel when comparing physical quantities. In QED, logarithmic divergences appear in loop corrections and are absorbed by renormalization. The slow growth makes these theories "renormalizable" and predictive.
 
 **Author's Clarification:** (1) For every finite ε > 0, the integral is finite. The "divergence" occurs only in the limit ε → 0, which is never physically realized. (2) Physical measurements always have finite resolution; ε = 0 exactly is not representable. (3) The integral produces valid, finite outputs for all physically meaningful lower bounds. (4) "Renormalization" is a mathematical technique for handling these limiting cases; the physical predictions remain finite.
 
@@ -810,7 +810,7 @@ S_10⁶ ≈ 14.4.
 As N → ∞: S_N → ∞ (very slowly).
 ```
 
-**The Fix & What It Tells Us:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/2 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
+**The Fix & What It Tells Us:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/12 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
 
 **Author's Clarification:** (1) There is no divergence. For every finite N, the partial sum is finite. No physical process involves infinite terms. (2) Regularization techniques are calculational conveniences; physical predictions are always finite.
 
@@ -1762,4 +1762,3 @@ Closer to T_c: mean field breaks down, critical fluctuations dominate.
 ---
 
 *Each singularity represents a mathematical statement about where expressions cease to have well-defined finite values. Whether this reflects physical reality or model limitations is the central question for analysis.*
-**Author's Clarification:** (C1, C3, C5) Planck scale is not a domain transition. Both quantum and relativistic perspectives apply at all scales. Planck scale represents a transition of observability, not physical law. The claim that "we don't know what happens there" overstates uncertainty—the physics is the same; our observational methods become inadequate.
