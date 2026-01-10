@@ -1628,10 +1628,9 @@ At t = 1 Planck time (~5.39×10⁻⁴⁴ sec): ρ ≈ ρ₁ × 3.44×10⁸⁷.
 At t = 0: ρ → ∞.
 ```
 
-**The Fix & What It Tells Us:** The infinite density is not physical; it signals the complete breakdown of General Relativity and the need for a theory of Quantum Gravity to describe the universe's beginning.
+**The Fix & What It Tells Us:** As the scale factor a → 0, density and spacetime curvature diverge—this is the initial cosmological singularity. The divergence signals a breakdown of General Relativity at extreme conditions, indicating that a quantum theory of gravity is needed to describe what occurs at t = 0.
 
-**Author's Clarification:** (1) The Big Bang theory is explicitly prohibited as an accepted framework in this research. (2) The "singularity" at t = 0 is an extrapolation backward using GR equations—it has never been observed. (3) For every t > 0, density is finite. (4) The t = 0 "singularity" represents a mathematical limit of a model, not an observed physical state. Alternative cosmological models exist that do not require an initial singularity.
-
+**Author's Clarification:** (1) The scale factor a = 0 doesn't actually exist, nor does the point in time t = 0. Those are things that are limits that are only asymptotically approached. So even in the Big Bang Theory, there really isn't a tangible "begin"ning of time". (2) It is possible that the interpretation of an expanding universe is not correct, and that the observed phenomenon can be explained with other first principles-based phenomena. (3) The equation cited has a finite output for every finite input; p never reaches infinity, and time never reaches zero.
 ---
 
 ### 12.2 The Big Rip (Cosmological Future Singularity)
