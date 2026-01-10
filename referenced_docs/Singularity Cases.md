@@ -81,10 +81,11 @@ As r → 0: φ → +∞.
 
 **The Fix & What It Tells Us:** Point charges are idealizations. Protons have finite radius (~0.87 fm); electrons are described by quantum wave functions spread over space. At small scales, quantum electrodynamics (QED) replaces classical electrostatics.
 
-**Author's Clarification:** Classical electrostatics remains valid at all scales; Therefore, tgher is no need  to transition to another model. QED is a statistical observational framework, and is equally "correct" but takes a different perspective.. for every finite inoput there is a finite outout. The word "small" seems to indicate some form of preferred scale mindset. There is no preferred scale. Both frameworks have their own unique insights, but do not represent different things, only different perspectives of teh same things. A point charge is like a location in space combimned with a charge, and ie every bit valid in this interpretation. As an abstraction. A charge has a location, but is not an object, but rather a property of an object. 
+**Author's Clarification:** Classical electrostatics remains valid at all scales; therefore, there is no need to transition to another model. QED is a statistical observational framework, and is equally "correct" but takes a different perspective. For every finite input there is a finite output. The word "small" seems to indicate some form of preferred scale mindset. There is no preferred scale. Both frameworks have their own unique insights, but do not represent different things, only different perspectives of the same things. A point charge is like a location in space combined with a charge, and is every bit valid in this interpretation. As an abstraction. A charge has a location, but is not an object, but rather a property of an object.
+
 ---
 
-### 1.4 Line Vortex Velocity
+### 1.3 Line Vortex Velocity
 
 **Mathematical form:**
 ```
@@ -110,7 +111,7 @@ As r → 0: v_θ → ∞.
 
 ---
 
-### 1.5 Green's Function in 3D
+### 1.4 Green's Function in 3D
 
 **Mathematical form:**
 ```
@@ -136,7 +137,7 @@ As |x-x'| → 0: G → ∞.
 
 ---
 
-### 1.6 Electric Field of Point Charge
+### 1.5 Electric Field of Point Charge
 
 **Mathematical form:**
 ```
@@ -153,7 +154,7 @@ The field magnitude diverges as the inverse square of distance.
 At r = 1 nm: E ≈ 1.44×10⁹ V/m.
 At r = 1 pm: E ≈ 1.44×10¹⁵ V/m.
 At r = 1 fm: E ≈ 1.44×10²¹ V/m.
-As r → 0: E → ∞.2
+As r → 0: E → ∞
 ```
 
 **The Fix & What It Tells Us:** At nuclear scales, quantum electrodynamics (QED) describes electromagnetic interactions via virtual photon exchange. The field concept breaks down; instead, we calculate scattering amplitudes. Vacuum polarization also screens the bare charge at short distances.
@@ -162,7 +163,7 @@ As r → 0: E → ∞.2
 
 ---
 
-### 1.7 Gravitational Field Strength
+### 1.6 Gravitational Field Strength
 
 **Mathematical form:**
 ```
@@ -188,7 +189,7 @@ As r → 0: g → ∞.
 
 ---
 
-### 1.8 Newtonian Tidal Force
+### 1.7 Newtonian Tidal Force
 
 **Mathematical form:**
 ```
@@ -211,10 +212,11 @@ As r → 0: F_tidal → ∞.
 **The Fix & What It Tells Us:** Near compact objects, tidal forces become extreme ("spaghettification" near black holes). General Relativity properly describes these regimes. The singularity indicates where Newtonian tidal theory predicts infinite stretching—physically, objects are torn apart before reaching r = 0.
 
 
-**Author's Clarification:** (1) There is no finite r at which g is infinite. For every finite r, there is a finite g. The blowup is manufactured by asserting r = 0, which is not a representable input. (2) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible. (3) General Relativity does not "replace" Newton at some threshold. GR applies at all scales; Newtonian physics presumes relativistic distictions are negligible.
+**Author's Clarification:** (1) There is no finite r at which F_tidal is infinite. For every finite r, there is a finite F_tidal. The blowup is manufactured by asserting r = 0 for a "very small" radius, which is mathematical fallacy. (2) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible. (3) General Relativity does not "replace" Newton at some threshold. GR applies at all scales; Newtonian physics presumes relativistic distictions are negligible.
+
 ---
 
-### 1.9 Coulomb Force Between Point Charges
+### 1.8 Coulomb Force Between Point Charges
 
 **Mathematical form:**
 ```
@@ -236,9 +238,11 @@ As r → 0: F → +∞.
 
 **The Fix & What It Tells Us:** At nuclear distances (~1 fm), the strong force dominates over electromagnetism, binding protons in nuclei despite Coulomb repulsion. At even shorter distances, quantum chromodynamics (QCD) governs quark interactions. Point charges are a classical idealization.
 
+**Author's Clarification:** (1) Quantum is not another regime, but an observational perspective. Both quantum and relativistic physics apply at all scales, and both are accurate in their context. (2) Point charges are an appropriate idealization, but actually do not allow for two particles to be at the same location, which means their radius must be greater than zero. (3) There is no finite r at which F is infinite. For every finite r, there is a finite F. The blowup is manufactured by asserting r = 0 for a "nuclear small" radius, which is mathematical fallacy. (4) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible.
+
 ---
 
-### 1.10 Black Hole Singularity (Schwarzschild Curvature Invariant)
+### 1.9 Black Hole Singularity (Schwarzschild Curvature Invariant)
 
 **Mathematical form:**
 ```
@@ -260,9 +264,11 @@ At r = 0: K → ∞.
 
 **The Fix & What It Tells Us:** The infinite curvature indicates that matter collapses to a point of zero volume, which is unphysical. This singularity, hidden behind the event horizon, demands a quantum theory of gravity to explain the black hole's core.
 
+**Author's Clarification:** (1) Planck scale is not a cutoff for quantum mechanics; it's simply a cutoff that indicates we're firmly observing things statistically vs. measuring single discrete objects. (2) For every finite radius input, there is a discrete finite output. (3) At Schwarzschild radius, time neither stops nor forms a singularity. That is considered a coordinate singularity, meaning it is the Schwarzschild radius away from a true singularity. It does not suggest that a true singularity exists. It does not suggest that time doesn't go slower. What it says is that's the point where we observe light not escaping because that's the point where the escape velocity is the same as the velocity of light. Time is considerably slower than it is for us, but that doesn't mean that it behaves according to some different physics. It doesn't mean time stops. It just means that the pace of time for the density of that system corresponds to one that is negligible to us or seemingly negligible to us. Collapse never results in zero volume; it just results in something that we can't see. The light is being drawn in faster than it gets out. So it's an information blockage for us, nothing else. Infinite curvature can never be achieved. It is only a limit. Same with zero time dilation. They're simply an illusion. There's no place in the universe where there is zero gravity influence, however negligible it may seem. (4) The pace of time is a function of aggregate density across a system about a particular axis of rotation. (5) Given that moment of inertia requires mass and radius, any three-dimensional object must therefore have mass and volume. Any tangible system will have spatial extent as well as mass. (6) Quantum is not another regime, but an observational perspective. Both quantum and relativistic physics apply at all scales, and both are accurate in their context. (7) The blowup is manufactured by asserting r = 0, which is not a representable input. (8) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible.
+
 ---
 
-### 1.11 Dipole Field
+### 1.10 Dipole Field
 
 **Mathematical form:**
 ```
@@ -282,9 +288,11 @@ As r → 0: E → ∞.
 
 **The Fix & What It Tells Us:** Dipole fields arise from separated charges. At distances comparable to the charge separation, the dipole approximation fails and the full two-charge field must be used. At atomic scales, quantum mechanics describes electron distributions; point dipoles don't exist.
 
+**Author's Clarification:** (1) There is no finite r at which E_dipole is infinite. For every finite r, there is a finite output. (2) Quantum is not another regime, but an observational perspective. Both quantum and relativistic physics apply at all scales, and both are accurate in their context. (3) A dipole represents discrete charges which cannot occupy the same location; if r were zero, they would be the same object rather than a dipole. (4) The blowup is manufactured by asserting r = 0, which is not a representable input. (5) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible.
+
 ---
 
-### 1.12 Quadrupole and Higher Multipoles
+### 1.11 Quadrupole and Higher Multipoles
 
 **Mathematical form:**
 ```
@@ -304,6 +312,7 @@ As r → 0: E → ∞ (as r⁻⁴).
 ```
 
 **The Fix & What It Tells Us:** Multipole expansions are only valid at distances large compared to the source size. The faster divergence of higher multipoles means they dominate at short range but are negligible far away. This mathematical structure underlies why atomic interactions are well-described by low-order multipoles.
+**Author's Clarification:** (1) Multipole expansions are valid mathematical tools for representing field behavior regardless of scale, as there is no preferred physical scale or threshold. They do not "diverge" in any way that produces mathematical infinities; the equations produce finite outputs for all finite inputs. (2) There is no finite r at which E is infinite. (3) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible.
 
 ---
 
@@ -345,6 +354,8 @@ Length contraction:     L = L₀/γ → 0  as v → c
 
 **The Fix & What It Tells Us:** The divergence at v = c is not a breakdown but a fundamental feature of special relativity. Massive particles cannot reach light speed because it would require infinite energy. Massless particles (photons) travel exactly at c but experience no proper time. This singularity defines the causal structure of spacetime.
 
+**Author's Clarification:** (1) There is no finite v at which γ is infinite. For every v < c, there is a finite γ. The limit v = c is asymptotic and never reached by massive particles. (2) This is not a "singularity" but an asymptotic limit—a boundary condition that defines the relationship between mass and velocity. (3) The equation produces valid, finite outputs for all representable inputs. (4) In floating point mathematics, v = c exactly is not representable for a massive particle; the denominator never reaches zero.
+
 ---
 
 ### 2.2 Resonance Amplitude
@@ -367,6 +378,8 @@ As γ → 0: A_max → ∞.
 ```
 
 **The Fix & What It Tells Us:** All real systems have damping (friction, radiation, etc.). The resonance singularity reveals that undamped oscillators would accumulate infinite energy when driven at their natural frequency. This mathematical infinity tells us that energy dissipation is essential for stable systems.
+
+**Author's Clarification:** (1) There is no finite input at which A is infinite. For every finite input, there is a finite output. The blowup is manufactured by asserting γ = 0 at resonance, which is not a representable input. (2) In floating point mathematics, there is no such thing as an infinitely precise zero. Division by zero is therefore impossible.
 
 ---
 
@@ -392,6 +405,8 @@ At r = rₛ: g_rr → ∞.
 
 **The Fix & What It Tells Us:** The horizon singularity is a coordinate artifact, not physical. Eddington-Finkelstein or Kruskal-Szekeres coordinates are regular there. An infalling observer notices nothing special crossing the horizon. This teaches us that coordinate singularities can hide smooth physics and choosing the right coordinates matters.
 
+**Author's Clarification:** (1) This is explicitly acknowledged as a coordinate singularity, not a physical one—the "Fix" section correctly identifies this. (2) The metric components remain finite for all r > rₛ. At r = rₛ exactly, the coordinate system becomes ill-defined, but physics continues smoothly. (3) No observer experiences infinite anything at the horizon; the apparent divergence is an artifact of the chosen coordinate system. (4) This case demonstrates that not all mathematical "infinities" correspond to physical singularities.
+
 ---
 
 ### 2.4 Breit-Wigner Resonance
@@ -416,6 +431,8 @@ As Γ → 0: σ_max → ∞.
 
 **The Fix & What It Tells Us:** All resonances have finite width Γ = ℏ/τ due to their finite lifetime τ. The mathematical singularity at Γ = 0 would imply an infinitely long-lived state. Quantum uncertainty prevents perfect energy sharpness—the resonance width encodes the decay rate.
 
+**Author's Clarification:** (1) There is no finite Γ at which σ is infinite. For every Γ > 0, there is a finite cross-section. (2) Γ = 0 represents a physical impossibility—no state has infinite lifetime. The "singularity" describes a non-physical limiting case that cannot be realized. (3) The equation produces valid, finite outputs for all physically meaningful inputs. (4) Quantum is not another regime but an observational perspective; the finite width is a measurement reality, not a quantum-specific phenomenon.
+
 ---
 
 ### 2.5 Propagator Poles
@@ -439,6 +456,8 @@ As p² → m²c²: G → ∞.
 ```
 
 **The Fix & What It Tells Us:** The pole signals a real particle state. In scattering calculations, the iε prescription (p² - m² + iε) moves the pole off the real axis, giving meaningful results. Poles in propagators are features, not bugs—they identify physical particle masses.
+
+**Author's Clarification:** (1) There is no finite input at which G is infinite. For every p² ≠ m²c², there is a finite output. (2) The "singularity" is an asymptotic limit that defines the physical mass; it is a boundary condition rather than a reachable value. (3) The equation produces valid, finite outputs for all representable inputs. (4) In floating point mathematics, the iε prescription ensures the denominator never reaches zero; an infinitely precise match to the mass shell is not representable.
 
 ---
 
@@ -472,6 +491,8 @@ As R → 0: ρ → ∞.
 
 **The Fix & What It Tells Us:** Point masses are mathematical conveniences that simplify calculations when only the gravitational effect at large distances matters. Real objects have finite extent. When density approaches nuclear values (~10¹⁷ kg/m³), matter transforms (neutron stars); beyond that, black holes form, hiding the singularity.
 
+**Author's Clarification:** (1) There is no finite R at which ρ is infinite. For every R > 0, there is a finite density. (2) R = 0 is not a representable physical state—all objects have spatial extent. A "point mass" is an abstraction representing location, not a physical object with zero volume. (3) Given that moment of inertia requires mass and radius, any physical object must have both mass and volume. (4) The blowup is manufactured by asserting R = 0, which violates the physical requirement that all objects have extent. (5) In floating point mathematics, R = 0 exactly is not representable for a physical object.
+
 ---
 
 ### 3.2 Point Charge Density
@@ -497,6 +518,8 @@ As R → 0: ρ → ∞.
 
 **The Fix & What It Tells Us:** Electrons have no known substructure, but quantum mechanics spreads their wave function over space. The "point charge" is an effective description; the electron's charge density follows |ψ|². At high energies, QED treats electrons as point particles with infinite "bare" charge that renormalizes to the observed value.
 
+**Author's Clarification:** (1) There is no finite R at which ρ is infinite. For every R > 0, there is a finite charge density. (2) A "point charge" is a mathematical abstraction for a center of charge at a location, not a physical claim that charge occupies zero volume. (3) Quantum mechanics is not a separate regime but a different observational perspective; modeling charge as a wave field or distribution avoids the mathematical singularity of the point-particle model. (4) "No known substructure" identifies an observational resolution limit rather than a physical reality of zero spatial extent. (5) In floating point mathematics, R = 0 exactly is not representable for a physical object.
+
 ---
 
 ### 3.3 Surface Charge/Mass Density
@@ -520,6 +543,8 @@ As d → 0: ρ → ∞.
 
 **The Fix & What It Tells Us:** True 2D charge distributions don't exist—they always have some thickness. Surface charge is a useful approximation when the thickness is much smaller than other relevant length scales. At atomic scales, "surfaces" are electron density distributions with finite extent.
 
+**Author's Clarification:** (1) There is no finite d at which ρ is infinite. For every d > 0, there is a finite volume density. (2) The "Fix" correctly identifies that 2D distributions are idealizations—all physical distributions are 3D with finite thickness. (3) d = 0 is not a representable physical state. (4) Surface charge density σ is a valid and useful abstraction for calculations where thickness is negligible relative to other dimensions, but thickness is never literally zero. (5) In floating point mathematics, d = 0 exactly is not representable.
+
 ---
 
 ### 3.4 Line Charge/Mass Density
@@ -542,6 +567,8 @@ As R → 0: ρ → ∞.
 ```
 
 **The Fix & What It Tells Us:** Line charges are idealizations useful when the wire radius is much smaller than the distance at which the field is measured. Real wires have finite cross-section. The singularity reminds us that all physical charge distributions are three-dimensional.
+
+**Author's Clarification:** (1) There is no finite R at which ρ is infinite. (2) Line charges are idealizations; all physical distributions have finite cross-sections. (3) R = 0 is not a representable physical state, as dimensions are limited by molecular composition. (4) Line density λ is a valid abstraction for calculations, but physical radius is never zero. (5) In floating-point mathematics, R = 0 is not exactly representable.
 
 ---
 
@@ -568,7 +595,7 @@ As Δt → 0: F → ∞.
 
 **The Fix & What It Tells Us:** True instantaneous forces don't exist—all interactions take finite time. The delta function idealization is useful when the collision time is much shorter than other timescales of interest. At short enough times, detailed force-time profiles matter (material deformation, wave propagation).
 
----
+**Author's Clarification:** (1) There is no finite Δt at which F is infinite. (2) Every physical measurement and interaction occurs over a finite time period; there is no such thing as a physically instantaneous measurement. (3) Signal accumulation requires duration; a measurement with Δt = 0 returns no information or energy. (4) Even seemingly instantaneous events, such as high-speed photography, have a finite exposure time. (5) In floating point mathematics, Δt = 0 exactly is not representable for a physical duration.
 
 ### 3.6 Dirac Delta Function
 
@@ -592,6 +619,8 @@ As σ → 0: peak height → ∞.
 ```
 
 **The Fix & What It Tells Us:** The delta function is mathematically rigorous as a distribution (linear functional on test functions). It represents perfect localization—the limit of increasingly concentrated functions. Its appearance in physics signals point sources, instantaneous events, or sharp boundaries. It's the mathematician's idealization of "concentrated at a point."
+
+**Author's Clarification:** (1) There is no finite σ at which the peak height is infinite. (2) σ = 0 is a mathematical limit, not a representable physical state—localization always has a finite scale. (3) Quantum is not a separate regime but an observational perspective; the delta function is a tool for modeling localization below the resolution limit. (4) The "infinite height" is a property of the mathematical abstraction, not a physical infinity. (5) In floating point mathematics, σ = 0 exactly is not representable.
 
 ---
 
@@ -622,7 +651,9 @@ At ε = 10⁻¹⁰⁰: ∫ = 230.
 As ε → 0: ∫ → ∞ (slowly).
 ```
 
-**The Fix & What It Tells Us:** Logarithmic divergences are the "mildest" infinities—they grow slowly and often cancel when comparing physical quantities. In QED, logarithmic divergences appear in loop corrections and are absorbed by renormalization. The slow growth makes these theories "renormalizable" and predictive.
+
+
+**Author's Clarification:** (1) For every finite ε > 0, the integral is finite. The "divergence" occurs only in the limit ε → 0, which is never physically realized. (2) Physical measurements always have finite resolution; ε = 0 exactly is not representable. (3) The integral produces valid, finite outputs for all physically meaningful lower bounds. (4) "Renormalization" is a mathematical technique for handling these limiting cases; the physical predictions remain finite.
 
 ---
 
@@ -648,6 +679,8 @@ As r → 0: U → ∞.
 
 **The Fix & What It Tells Us:** This infinite self-energy was a major crisis for classical electrodynamics. The solution in Quantum Electrodynamics (QED) is renormalization, where infinite "bare" quantities are absorbed to yield finite measured values. The divergence drove the development of modern quantum field theory.
 
+**Author's Clarification:** (1) There is no finite r at which U is infinite. For every r > 0, there is a finite self-energy. (2) r = 0 is not a representable physical state—electrons have spatial extent even if below our observational resolution. (3) The "crisis" arose from treating an abstraction (point charge) as literal. (4) Quantum is not another regime but an observational perspective; renormalization is a mathematical technique, not a change in physical reality. (5) In floating point mathematics, r = 0 exactly is not representable.
+
 ---
 
 ### 4.3 UV Divergence (High Energy/Short Distance)
@@ -672,6 +705,8 @@ As Λ → ∞: ∫ → ∞.
 
 **The Fix & What It Tells Us:** UV divergences signal that our theory is incomplete at short distances. Renormalization absorbs infinities into redefined parameters. Effective field theory philosophy: the cutoff Λ represents where new physics enters. Divergences aren't failures but messengers from higher energy scales.
 
+**Author's Clarification:** (1) There is no divergence. For every finite Λ, the integral is finite. There is no finite input that produces an infinite output. (2) "Short distances" is a relative concept; there is no preferred scale. Both quantum and relativistic perspectives apply at all scales. (3) There is no reason to believe these models have a point where they stop working—where values become infinite or zero. (4) "Renormalization absorbs infinities" is incorrect; there are no infinities to absorb.
+
 ---
 
 ### 4.4 The Ultraviolet Catastrophe (Rayleigh-Jeans Law)
@@ -695,6 +730,8 @@ As λ → 0: B_λ → ∞.
 
 **The Fix & What It Tells Us:** This infinity contradicted experiment. Max Planck resolved it by quantizing energy, leading to Planck's Law: B_λ = (2hc²/λ⁵) × 1/(e^(hc/(λk_BT)) - 1). The exponential suppresses short wavelengths. The divergence forced the birth of quantum mechanics.
 
+**Author's Clarification:** (1) There is no catastrophe. For every finite λ, the output is finite. (2) Quantum is not a separate regime but an observational perspective that applies at all scales. (3) The Rayleigh-Jeans law works within its domain; Planck's law correctly accounts for the discrete nature of energy exchange.
+
 ---
 
 ### 4.5 IR Divergence (Low Energy/Long Distance)
@@ -716,6 +753,8 @@ At m = 0: ∫ → ∞.
 ```
 
 **The Fix & What It Tells Us:** IR divergences in QED from soft photon emission cancel when including all physical processes (Bloch-Nordsieck theorem). Massless particles cause trouble because arbitrarily low-energy modes exist. In practice, any detector has finite resolution, providing a physical IR cutoff.
+
+**Author's Clarification:** (1) There is no divergence. For every finite m, the integral is finite. (2) Physical detectors have finite resolution; proper accounting of all processes yields finite results.
 
 ---
 
@@ -740,6 +779,8 @@ As k_max → ∞: E_0/V → ∞.
 ```
 
 **The Fix & What It Tells Us:** Zero-point energy is real (Casimir effect) but the infinite sum is cutoff-dependent. In most physics, only energy differences matter, so the infinity cancels. The cosmological constant problem—why the observed dark energy is 10¹²⁰ times smaller than naive estimates—remains unsolved.
+
+**Author's Clarification:** (1) There is no infinite sum. Physical systems have finite extent and finite mode counts. For every finite k_max, the sum is finite. (2) The Casimir effect demonstrates that measurable physics involves energy differences, which are finite.
 
 ---
 
@@ -771,6 +812,8 @@ As N → ∞: S_N → ∞ (very slowly).
 
 **The Fix & What It Tells Us:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/2 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
 
+**Author's Clarification:** (1) There is no divergence. For every finite N, the partial sum is finite. No physical process involves infinite terms. (2) Regularization techniques are calculational conveniences; physical predictions are always finite.
+
 ---
 
 ### 5.2 Asymptotic Series
@@ -795,6 +838,8 @@ Optimal truncation: around n ~ 137 gives best accuracy.
 
 **The Fix & What It Tells Us:** Asymptotic series capture physics accurately when truncated appropriately—typically at the smallest term. Beyond that, non-perturbative effects (instantons) dominate. Resurgence theory shows how divergent perturbative series connect to non-perturbative physics through Borel summation.
 
+**Author's Clarification:** (1) Truncated series produce finite, accurate results. The series is a calculational tool; physical measurements are always finite. (2) "Non-perturbative effects" does not mean different physics—it means effects requiring different calculational approaches.
+
 ---
 
 ### 5.3 Partition Function Above Hagedorn Temperature
@@ -818,6 +863,8 @@ At T = T_H: Z → ∞ (series diverges).
 
 **The Fix & What It Tells Us:** The Hagedorn temperature isn't the maximum temperature—it's where the partition function formalism breaks down. In string theory, T_H signals a phase transition where strings form a "string gas" or the system transitions to a deconfined phase. The divergence reveals qualitative change in the system's nature.
 
+**Author's Clarification:** (1) There is no divergence. For every finite T, the partition function is finite. (2) Phase transitions represent changes in system behavior, not violations of physical law or transitions to different physics.
+
 ---
 
 ### 5.4 The Landau Pole in QED
@@ -839,6 +886,8 @@ As Q → Λ_Landau from below: α → ∞.
 ```
 
 **The Fix & What It Tells Us:** This "triviality" problem suggests that pure QED is not mathematically consistent to arbitrarily high energies. The divergence forces us to consider that QED must be embedded in a larger theory (like the Standard Model or a Grand Unified Theory) which modifies its high-energy behavior, or that new physics must appear to cut off the growth.
+
+**Author's Clarification:** (1) There is no pole. For every finite Q, α is finite. The Landau pole is a mathematical artifact of perturbation theory, not a physical prediction. (2) There is no "new physics" that must appear. The same physics applies at all scales; physical measurements of α are always finite.
 
 ---
 
@@ -867,6 +916,8 @@ At x = 0: 0/0 = ?  →  L'Hôpital: cos(0)/1 = 1.
 
 **The Fix & What It Tells Us:** L'Hôpital's rule or Taylor expansion resolves 0/0 forms. In physics, 0/0 often appears in limiting cases where two competing effects balance. The resolved limit reveals the dominant behavior—sinc(x) = sin(x)/x is smooth because sine's approach to zero matches x's.
 
+**Author's Clarification:** (1) The 0/0 form is indeterminate, not undefined—mathematical techniques resolve it to a finite value. (2) This is a mathematical technique issue, not a physical singularity.
+
 ---
 
 ### 6.2 The ∞/∞ Form
@@ -887,6 +938,8 @@ As x → ∞: x²/e^x → 0 (exponential wins).
 ```
 
 **The Fix & What It Tells Us:** Growth rate comparisons resolve ∞/∞: exponentials beat polynomials beat logarithms. L'Hôpital's rule can be applied iteratively. In physics, this determines which effects dominate at extreme scales—exponential suppression (Boltzmann, tunneling) ultimately wins over polynomial growth.
+
+**Author's Clarification:** (1) The ∞/∞ form is indeterminate, not undefined—the limit resolves to a definite value (0 in this example). (2) For every finite x, the ratio x²/eˣ is finite. (3) This demonstrates that mathematical techniques handle these cases correctly; no physical infinity arises. (4) "Extreme scales" is relative—there is no preferred scale where physics changes.
 
 ---
 
@@ -909,6 +962,8 @@ As x → 0⁺: x·ln(x) → 0 (zero wins over log divergence).
 
 **The Fix & What It Tells Us:** The 0·∞ form requires determining which factor "wins." The resolution often involves entropy calculations (S ~ -Σp ln p) where p → 0 contributions vanish. This explains why systems with zero probability events contribute nothing to entropy.
 
+**Author's Clarification:** (1) The 0·∞ form is indeterminate, not undefined—mathematical analysis yields a definite finite result. (2) For every x > 0, the product x·ln(x) is finite. (3) The limit equals 0, demonstrating proper analysis handles these cases. (4) Physical quantities are always finite; indeterminate forms are mathematical artifacts requiring appropriate technique.
+
 ---
 
 ### 6.4 The ∞ - ∞ Form
@@ -929,6 +984,8 @@ As x → ∞: limit = 0.
 ```
 
 **The Fix & What It Tells Us:** Renormalization in QFT is sophisticated ∞ - ∞: subtracting infinite counterterms from infinite bare quantities to get finite physical results. The mathematical framework (dimensional regularization, cutoff schemes) makes this precise. The result is not arbitrary—it's determined by physical requirements like gauge invariance.
+
+**Author's Clarification:** (1) The ∞ - ∞ form is indeterminate, not undefined—proper analysis yields a definite finite result. (2) For every finite x, the difference is finite and well-defined. (3) Renormalization works precisely because the mathematical framework produces finite, physically meaningful results. (4) The "infinities" in QFT are artifacts of the calculational scheme; physical predictions are always finite.
 
 ---
 
@@ -955,6 +1012,8 @@ As n → ∞: (1 + 1/n)^n → e ≈ 2.718...
 ```
 
 **The Fix & What It Tells Us:** These indeterminate forms yield definite limits through careful analysis. The emergence of e from (1 + 1/n)^n exemplifies how "infinitesimally small" changes accumulated "infinitely many" times can produce finite, precise results—the foundation of continuous compounding and exponential growth in finance, physics, and biology.
+
+**Author's Clarification:** (1) For every finite n, (1 + 1/n)^n is finite. The limit e ≈ 2.718 is a definite finite value. (2) These indeterminate forms demonstrate that proper mathematical analysis yields finite results. (3) "Infinitesimally small" and "infinitely many" are limiting concepts; physical systems always involve finite quantities. (4) The result is e, a perfectly finite transcendental number—no physical infinity arises.
 
 ---
 
@@ -987,6 +1046,8 @@ As v → c: E → ∞, p → ∞.
 
 **The Fix & What It Tells Us:** c is not just a speed limit but the conversion factor between space and time. Massive particles asymptotically approach c with diminishing returns. The "infinity" here is a feature: it preserves causality by preventing superluminal travel. Massless particles exist exactly at v = c.
 
+**Author's Clarification:** (1) For every v < c, energy and momentum are finite. The "infinity" occurs only at the asymptotic limit v = c, which massive particles never reach. (2) This is an asymptotic limit, not a singularity—it defines a boundary that cannot be crossed, not a physical infinity. (3) The equations produce valid, finite outputs for all physically realizable velocities. (4) In floating point mathematics, v = c exactly is not representable for a massive particle.
+
 ---
 
 ### 7.2 Absolute Zero as Temperature Limit
@@ -1012,6 +1073,8 @@ T = 0: unreachable in finite steps.
 
 **The Fix & What It Tells Us:** The Third Law isn't a technological limitation—it's fundamental. Removing the last bit of entropy requires infinite steps or infinite work. At extremely low temperatures, quantum effects dominate and classical temperature concepts break down. The coldest temperatures achieved reveal quantum ground states.
 
+**Author's Clarification:** (1) For every T > 0, thermodynamic quantities are finite. T = 0 is an asymptotic limit that cannot be reached, not a physical singularity. (2) This is explicitly an unreachable limit—the "infinity" describes the impossibility of reaching absolute zero, not a physical infinity at that temperature. (3) Record low temperatures (100 pK) demonstrate that physics remains well-behaved; we simply cannot reach T = 0 exactly. (4) Quantum effects at low temperatures represent observational considerations, not domain transitions.
+
 ---
 
 ### 7.3 Event Horizon as Spatial Limit
@@ -1035,6 +1098,8 @@ At r = rₛ: z → ∞.
 
 **The Fix & What It Tells Us:** The horizon is a coordinate singularity, not a physical one. An infalling observer crosses in finite proper time, experiencing nothing dramatic locally. The infinite redshift seen by distant observers explains why black holes appear "frozen"—the last light takes infinite time to reach us. This exemplifies observer-dependence in General Relativity.
 
+**Author's Clarification:** (1) The "Fix" correctly identifies this as a coordinate singularity—the infinite redshift is an observational artifact, not a physical infinity. (2) For every r > rₛ, redshift is finite. The "infinity" at r = rₛ represents a limit of what we can observe, not a physical singularity. (3) An infalling observer experiences finite, well-defined physics. (4) The event horizon represents the boundary where light cannot escape—an information limit for external observers, nothing more. Time does not stop; it continues normally for the infalling observer.
+
 ---
 
 ### 7.4 Perfect Efficiency Limit
@@ -1056,6 +1121,8 @@ T_cold → 0: η_max → 100% (unattainable).
 ```
 
 **The Fix & What It Tells Us:** The Carnot limit is thermodynamics' fundamental constraint—no engine can exceed it. Real engines face additional losses (friction, heat leaks) and achieve ~40-60% of Carnot efficiency. The impossibility of 100% efficiency (requiring T_cold = 0 or T_hot = ∞) is equivalent to the Second Law—perpetual motion machines are impossible.
+
+**Author's Clarification:** (1) For every finite T_cold > 0 and finite T_hot, efficiency is finite and less than 100%. (2) The "limit" at T_cold = 0 or T_hot = ∞ is explicitly unreachable—this is a constraint, not a singularity. (3) All real engines operate with finite temperature differences and achieve finite efficiencies. (4) The Carnot limit demonstrates that thermodynamic laws produce finite, well-defined constraints.
 
 ---
 
@@ -1092,6 +1159,8 @@ At T = 0: f = 1 for E < μ, f = 0 for E > μ (perfect step).
 ```
 
 **The Fix & What It Tells Us:** Jump discontinuities are idealizations that simplify analysis. Real systems have finite transition widths (thermal broadening, quantum tunneling). The Fermi surface becomes sharp only at T = 0; at finite T, the step is smoothed over ~kT. Such discontinuities define phase boundaries and sharp interfaces.
+
+**Author's Clarification:** (1) For every T > 0, the Fermi-Dirac distribution is smooth and continuous—the "discontinuity" occurs only at T = 0, which cannot be reached. (2) Real systems always have finite temperature, so the transition is always smoothed. (3) The "sharp" discontinuity is an idealization of the T = 0 limit, never physically realized. (4) At every computable temperature, the function is well-defined and finite.
 
 ---
 
@@ -1147,6 +1216,8 @@ At T = T_λ: C_p → ∞ (power-law divergence, α ≈ -0.01).
 
 **The Fix & What It Tells Us:** Second-order (continuous) phase transitions have divergent susceptibilities and correlation lengths but continuous order parameters. The lambda transition marks the onset of superfluidity—a macroscopic quantum state. These singularities reveal universal behavior independent of microscopic details (universality classes).
 
+**Author's Clarification:** (1) For every |T - T_λ| > 0, the specific heat is finite. The "divergence" occurs only at T = T_λ exactly. (2) Physical measurements always have finite temperature resolution; T = T_λ exactly is not precisely achievable. (3) The power-law behavior with α ≈ -0.01 means the "divergence" is extremely weak—Cp grows slowly as T → T_λ. (4) Experimental measurements near T_λ always yield finite specific heat values.
+
 ---
 
 ### 8.4 Shock Wave Discontinuities
@@ -1172,6 +1243,8 @@ Shock thickness: ~few mean free paths (~0.1 μm).
 ```
 
 **The Fix & What It Tells Us:** Shock discontinuities arise when supersonic flow cannot communicate changes smoothly. The "infinite" derivative is regularized by viscosity over a few molecular mean free paths. Shock waves demonstrate how conservation laws persist even through discontinuities—nature finds singular solutions when smooth ones don't exist.
+
+**Author's Clarification:** (1) The shock "discontinuity" has finite thickness (~0.1 μm)—it is not a mathematical discontinuity but a very steep gradient. (2) Physical quantities (P, T, ρ) change rapidly but remain finite and well-defined throughout the shock. (3) The "infinite derivative" is an idealization; real shocks have finite gradients regularized by viscosity. (4) Conservation laws are satisfied; this is organized physics, not a breakdown.
 
 ---
 
@@ -1205,6 +1278,8 @@ As T → T_c: χ → ∞. The material becomes infinitely sensitive to external 
 
 **The Fix & What It Tells Us:** Critical singularities with universal exponents reveal deep connections between different physical systems. Renormalization group theory explains why systems as different as magnets and fluids share the same exponents—they belong to the same universality class. These singularities are features, not bugs: they mark continuous phase transitions and signal collective behavior where fluctuations occur at all length scales.
 
+**Author's Clarification:** (1) For every |T - T_c| > 0, susceptibility and correlation length are finite. The "divergence" occurs only at T = T_c exactly. (2) Physical measurements have finite temperature resolution; T = T_c exactly is not precisely achievable. (3) Experimental measurements always yield finite values of χ and ξ. (4) The divergence is a theoretical limiting behavior that signals the approach to a critical point, not a physical infinity.
+
 ---
 
 ## 9. Multi-Valued Functions and Branch Points
@@ -1236,6 +1311,8 @@ After 4π rotation (z = 1): √z = +1 (back to start).
 
 **The Fix & What It Tells Us:** Branch points are not pathologies—they encode essential physics. The multi-valuedness of √z reflects that the function naturally lives on a double-cover of the complex plane (Riemann surface). In physics, branch points at k = ±im mark particle production thresholds; their locations determine masses.
 
+**Author's Clarification:** (1) Branch points are mathematical features of complex analysis, not physical singularities. (2) For every z ≠ 0, √z is well-defined once a branch is chosen. (3) The multi-valuedness is a property of the mathematical representation, not of physical observables. (4) Physical quantities extracted from these functions are always finite and single-valued.
+
 ---
 
 ### 9.2 Logarithmic Branch Point
@@ -1259,6 +1336,8 @@ After 2πn rotation: ln(z) = 2πni (infinitely many sheets).
 ```
 
 **The Fix & What It Tells Us:** The logarithm has infinitely many branches—it lives on a helical Riemann surface with infinitely many sheets. This structure appears in phase accumulation (quantum mechanics, optics) and explains why angles are defined modulo 2π. The 2D Green's function's ln(r) behavior explains why 2D systems are special.
+
+**Author's Clarification:** (1) For every z ≠ 0, ln(z) is well-defined once a branch is chosen. (2) The "infinitely many sheets" is a mathematical structure, not a physical infinity. (3) Phase accumulation (2πn) reflects periodicity, not divergence. (4) Physical observables derived from logarithmic functions are finite and well-defined.
 
 ---
 
@@ -1288,6 +1367,8 @@ At r = 0 (center): |E| = 0 exactly, phase undefined.
 
 **The Fix & What It Tells Us:** The phase singularity at the vortex core is topologically protected—it cannot be removed by smooth deformation. The amplitude must vanish there to keep the field single-valued. This is the prototype for topological defects in physics: superfluid vortices, cosmic strings, and magnetic vortices in superconductors all share this structure.
 
+**Author's Clarification:** (1) At the vortex core r = 0, the amplitude |E| = 0—the field itself is zero, not infinite. (2) The "undefined phase" is not a physical infinity; it's simply that phase has no meaning where amplitude is zero. (3) For all r > 0, both amplitude and phase are finite and well-defined. (4) This is a topological feature, not a singularity in the sense of physical infinity.
+
 ---
 
 ### 9.4 Riemann Sheets in Scattering
@@ -1312,6 +1393,8 @@ Pole location: E_pole = 1210 - 50i MeV (on second sheet).
 ```
 
 **The Fix & What It Tells Us:** Resonances appear as poles on unphysical Riemann sheets, not on the physical one. The real part gives the resonance energy; the imaginary part gives the width (lifetime). This elegant structure explains why short-lived particles show up as bumps in cross-sections—they're shadows of poles just below the real axis.
+
+**Author's Clarification:** (1) Physical scattering cross-sections are always finite—the pole is on the unphysical sheet, not at physical energies. (2) The complex pole location (E - iΓ/2) represents the resonance; measured quantities are finite. (3) Riemann sheet structure is a mathematical framework for organizing the physics, not a physical infinity. (4) Experimental cross-sections show smooth peaks, not infinities.
 
 ---
 
@@ -1346,6 +1429,8 @@ At z → 0: behavior depends entirely on approach direction.
 
 **The Fix & What It Tells Us:** Essential singularities are the "wildest" type—the function has no well-defined limit and takes almost every value infinitely often nearby (Picard's theorem). In physics, essential singularities appear in non-perturbative phenomena. They cannot be "fixed" but signal genuinely complex behavior requiring non-Taylor methods.
 
+**Author's Clarification:** (1) For every z ≠ 0, e^(1/z) is finite and well-defined. The "singularity" is only at z = 0 exactly. (2) The direction-dependent behavior is a mathematical property of the function in the complex plane, not a physical infinity. (3) Physical applications use this function at finite z, where values are always finite. (4) The "wild behavior" near z = 0 is a mathematical characterization, not a physical observation.
+
 ---
 
 ### 10.2 Non-Perturbative Effects (Instantons)
@@ -1374,6 +1459,8 @@ At E = E_crit: rate ~ e⁻π ≈ 0.04 (significant).
 
 **The Fix & What It Tells Us:** Non-perturbative effects are invisible to perturbation theory (all Taylor coefficients at g = 0 vanish for e^(-1/g)). They represent tunneling, instantons, and vacuum decay—fundamentally quantum phenomena. Understanding these requires methods beyond perturbation theory: saddle-point approximation, instanton calculus, resurgence.
 
+**Author's Clarification:** (1) For every finite E or g, tunneling amplitudes and production rates are finite. (2) The exponential suppression e^(-S/ℏ) produces small but finite probabilities for finite barrier parameters. (3) "Invisible to perturbation theory" means the calculational method misses these effects, not that they are infinite. (4) Physical tunneling rates are always finite and measurable.
+
 ---
 
 ### 10.3 Stokes Phenomenon
@@ -1396,6 +1483,8 @@ Across Stokes line at arg(x) = 2π/3: subdominant term appears.
 ```
 
 **The Fix & What It Tells Us:** Stokes phenomenon shows that asymptotic expansions change form discontinuously in the complex plane. The "switch" is not a physical discontinuity but reflects how we must choose which exponentials to include. This has deep connections to resurgence theory and explains how perturbative and non-perturbative physics connect.
+
+**Author's Clarification:** (1) The Airy function Ai(x) is finite and well-defined for all finite x. (2) The "discontinuous change" is in the mathematical representation (asymptotic expansion), not in the physical function. (3) Stokes phenomenon is about how we approximate functions, not about physical discontinuities. (4) The function itself is perfectly smooth; only our approximation method changes form.
 
 ---
 
@@ -1430,6 +1519,8 @@ At r = a: v_θ ~ 160 m/s (core region; superfluid breaks down).
 
 **The Fix & What It Tells Us:** Vortex cores are topological defects—they cannot be smoothly removed because the phase must wind by 2πn around them. The core size is set by the coherence length where the order parameter heals. These quantized vortices are directly observed in superfluids and superconductors, confirming quantum mechanics on macroscopic scales.
 
+**Author's Clarification:** (1) At the vortex core, |ψ| = 0—the order parameter vanishes, it does not become infinite. (2) For all r > 0 (outside the core), velocity v_θ is finite. (3) The core has finite size (~1 Å); there is no physical point singularity. (4) Topological protection means the vortex cannot be removed continuously, not that anything becomes infinite.
+
 ---
 
 ### 11.2 The Aharonov-Bohm Effect Singularity
@@ -1452,6 +1543,8 @@ As R → 0: B → ∞.
 ```
 
 **The Fix & What It Tells Us:** This mathematical singularity in B is not physically observable. The measurable effect—the quantum phase shift Δφ = (e/ℏ)Φ for an electron encircling the solenoid—remains finite (e.g., 2π for one flux quantum). The divergence highlights the physical reality of the vector potential A and reveals a deep topological property of electromagnetism in quantum theory.
+
+**Author's Clarification:** (1) Real solenoids have finite radius R > 0, so B is always finite. (2) The R → 0 limit is a mathematical idealization, not a physical configuration. (3) The "Fix" correctly identifies that the measurable phase shift is finite regardless of idealization. (4) Physical solenoids and their effects are entirely finite and well-defined.
 
 ---
 
@@ -1479,6 +1572,8 @@ At r = 0: B → ∞ (string singularity).
 
 **The Fix & What It Tells Us:** The Dirac string is unphysical—it's a gauge artifact that can be moved but not removed. If monopoles exist, their magnetic field's singularity requires the string, but quantum mechanics makes it unobservable if eg = nℏc/2. This topological argument beautifully explains why electric charge is quantized if even one monopole exists anywhere in the universe.
 
+**Author's Clarification:** (1) No magnetic monopole has ever been observed—this is a theoretical construct. (2) The Dirac string is explicitly acknowledged as a gauge artifact, not a physical singularity. (3) For all r > 0, the monopole field B is finite. (4) The quantization condition is a theoretical consequence of hypothetical monopole existence, not an observed physical infinity.
+
 ---
 
 ### 11.4 Conical Singularities
@@ -1503,6 +1598,8 @@ At r = 0: curvature = δ-function, infinite Ricci scalar.
 ```
 
 **The Fix & What It Tells Us:** Conical singularities are "mild"—spacetime is flat except at the tip where curvature concentrates as a delta function. Unlike black hole singularities, test particles can pass through unharmed. They appear in cosmic string models, 2+1D gravity, and orbifolds. The deficit angle directly encodes the mass/energy creating the singularity.
+
+**Author's Clarification:** (1) No cosmic strings have been observed—this is a theoretical model. (2) Conical singularities are explicitly described as "mild" because test particles experience finite effects. (3) The delta-function curvature is a mathematical idealization; real cosmic strings (if they exist) would have finite core thickness. (4) For all r > 0, spacetime curvature is zero (flat).
 
 ---
 
@@ -1533,6 +1630,8 @@ At t = 0: ρ → ∞.
 
 **The Fix & What It Tells Us:** The infinite density is not physical; it signals the complete breakdown of General Relativity and the need for a theory of Quantum Gravity to describe the universe's beginning.
 
+**Author's Clarification:** (1) The Big Bang theory is explicitly prohibited as an accepted framework in this research. (2) The "singularity" at t = 0 is an extrapolation backward using GR equations—it has never been observed. (3) For every t > 0, density is finite. (4) The t = 0 "singularity" represents a mathematical limit of a model, not an observed physical state. Alternative cosmological models exist that do not require an initial singularity.
+
 ---
 
 ### 12.2 The Big Rip (Cosmological Future Singularity)
@@ -1559,6 +1658,8 @@ As t → t_rip: a(t) → ∞, spacetime itself torn apart.
 
 **The Fix & What It Tells Us:** This divergence is a prediction of phantom dark energy models. It tells us that the universe's fate depends critically on the nature of dark energy—whether it's a gentle heat death or violent disintegration. Current observations don't rule out w < -1, making this an active research area.
 
+**Author's Clarification:** (1) The Big Rip is a theoretical prediction of a specific model with w < -1, which has not been observed. (2) For every t < t_rip, all quantities are finite. (3) The "singularity" at t_rip is a mathematical extrapolation of a model, not an observed phenomenon. (4) Whether this scenario is physical depends entirely on the actual nature of dark energy, which is not established.
+
 ---
 
 ### 12.3 The Navier-Stokes Existence Problem (Millennium Problem)
@@ -1583,6 +1684,8 @@ Energy dissipation ε = ν|ω|² would explode catastrophically.
 
 **The Fix & What It Tells Us:** This is one of the Clay Mathematics Institute's Millennium Prize Problems. Proving whether such blow-ups can occur—or cannot—would revolutionize our understanding of turbulence. If they can occur, classical Navier-Stokes breaks down at small scales, potentially requiring molecular or quantum descriptions.
 
+**Author's Clarification:** (1) No finite-time blow-up in physical fluid flow has ever been observed. (2) The question is mathematical: whether the equations can produce infinite vorticity. Physical fluids are always subject to molecular effects at small scales. (3) Even in the hypothetical scenario, for every t < T*, vorticity is finite. (4) Viscosity regularizes behavior at molecular scales; the "blow-up" would signal where the continuum model fails, not where physics becomes infinite.
+
 ---
 
 ### 12.4 Naked Singularity & Cosmic Censorship
@@ -1602,6 +1705,8 @@ As r → 0: Tidal force → ∞ (infinite spaghettification).
 ```
 
 **The Fix & What It Tells Us:** Penrose's Cosmic Censorship Hypothesis conjectures that naked singularities are forbidden—generic collapse always forms an event horizon. If naked singularities exist, they would break predictability in GR, as physics would cease at the singularity without a protective horizon. The debate tests GR's self-consistency.
+
+**Author's Clarification:** (1) No naked singularity has ever been observed—this is a theoretical concern. (2) For every r > 0, curvature and tidal forces are finite. (3) The "singularity" at r = 0 is a mathematical limit that cannot be physically reached or observed. (4) Cosmic Censorship is a conjecture precisely because singularities are mathematical artifacts of GR, not observed physical states.
 
 ---
 
@@ -1627,6 +1732,8 @@ Below l_P: spacetime itself fluctuates; "distance" undefined.
 
 **The Fix & What It Tells Us:** The Planck scale is where quantum and gravitational effects are equally strong. We don't know what happens there—string theory, loop quantum gravity, and other approaches attempt to describe it. The scale is so remote (current experiments probe 10¹⁶ times larger) that we may never directly test it, but it's where all roads of fundamental physics converge.
 
+**Author's Clarification:** (1) Planck scale is not a domain transition—both quantum and relativistic physics apply at all scales. (2) Planck scale represents a transition of observability, not physical law. (3) The claim that "we don't know what happens there" overstates uncertainty—the physics is the same; our observational methods become statistically inadequate. (4) There is no physical discontinuity or singularity at the Planck scale; it is simply the scale where our current observational techniques transition from direct measurement to statistical inference.
+
 ---
 
 ### 12.6 Mean Field Theory Breakdown
@@ -1649,6 +1756,8 @@ Closer to T_c: mean field breaks down, critical fluctuations dominate.
 ```
 
 **The Fix & What It Tells Us:** Mean field theory ignores correlations—it works when fluctuations are small. The Ginzburg criterion tells us how close to T_c we must be for fluctuations to dominate. BCS superconductivity works because electrons pair over long distances (large coherence length), making Gi tiny. Systems with short-range order require renormalization group methods.
+
+**Author's Clarification:** (1) Mean field "breakdown" means the approximation becomes inaccurate, not that physics becomes infinite. (2) At every temperature, physical quantities remain finite; only the calculational method fails. (3) Renormalization group methods handle the critical region correctly—the physics is well-defined, just requiring more sophisticated mathematics. (4) This is explicitly a model limitation, not a physical singularity.
 
 ---
 
