@@ -1,4 +1,4 @@
-# Singularity Cases in Physics and Mathematics
+# Breakdown Cases in Physics and Mathematics
 
 A catalog of singularities organized by the **mathematical operation** that produces them, with explicit examples showing where and how each breakdown occurs.
 
@@ -25,14 +25,34 @@ A catalog of singularities organized by the **mathematical operation** that prod
 
 ## 1. Simple Poles: What happens to 1/x as x → 0
 
+---
 
-**Real-world Example:** Newton's Law of Universal Gravitation (F = Gm₁m₂/r²), where the force between two masses becomes infinite as their distance r approaches zero.
+### 1.1 Newton's Law of Universal Gravitation
 
-**What division by zero tells us:** It signals that the mathematical model has reached its limit of validity. In physics, this usually means an abstraction—like treating a star as a "point mass" with zero volume—is no longer applicable, and a more complex theory (like General Relativity or Quantum Mechanics) is required to describe the reality at that scale.
+**Mathematical form:**
+```
+F = G m₁m₂ / r²
+
+At r = 0:
+F → ∞
+
+The gravitational force between two masses becomes infinite as their distance r approaches zero.
+```
+
+**Numerical Blowout (for two 1 kg masses):**
+```
+At r = 1 m: F ≈ 6.67 × 10⁻¹¹ N.
+At r = 10 cm: F ≈ 6.67 × 10⁻⁹ N.
+At r = 1 cm: F ≈ 6.67 × 10⁻⁷ N.
+As r → 0: F → ∞.
+```
+
+**Standard Physics Interpretation:**
+It signals that the mathematical model has reached its limit of validity. In physics, this usually means an abstraction—like treating a star as a "point mass" with zero volume—is no longer applicable, and a more complex theory (like General Relativity or Quantum Mechanics) is required to describe the reality at that scale.
 
 ---
 
-### 1.1 Gravitational Potential
+### 1.2 Gravitational Potential
 
 **Mathematical form:**
 ```
@@ -58,7 +78,7 @@ As r → 0: V → -∞.
 
 ---
 
-### 1.2 Electric Potential of Point Charge
+### 1.3 Electric Potential of Point Charge
 
 **Mathematical form:**
 ```
@@ -84,7 +104,7 @@ As r → 0: φ → +∞.
 
 ---
 
-### 1.3 Line Vortex Velocity
+### 1.4 Line Vortex Velocity
 
 **Mathematical form:**
 ```
@@ -110,7 +130,7 @@ As r → 0: v_θ → ∞.
 
 ---
 
-### 1.4 Green's Function in 3D
+### 1.5 Green's Function in 3D
 
 **Mathematical form:**
 ```
@@ -136,7 +156,7 @@ As |x-x'| → 0: G → ∞.
 
 ---
 
-### 1.5 Electric Field of Point Charge
+### 1.6 Electric Field of Point Charge
 
 **Mathematical form:**
 ```
@@ -162,7 +182,7 @@ As r → 0: E → ∞
 
 ---
 
-### 1.6 Gravitational Field Strength
+### 1.7 Gravitational Field Strength
 
 **Mathematical form:**
 ```
@@ -188,7 +208,7 @@ As r → 0: g → ∞.
 
 ---
 
-### 1.7 Newtonian Tidal Force
+### 1.8 Newtonian Tidal Force
 
 **Mathematical form:**
 ```
@@ -215,7 +235,7 @@ As r → 0: F_tidal → ∞.
 
 ---
 
-### 1.8 Coulomb Force Between Point Charges
+### 1.9 Coulomb Force Between Point Charges
 
 **Mathematical form:**
 ```
@@ -241,7 +261,7 @@ As r → 0: F → +∞.
 
 ---
 
-### 1.9 Black Hole Singularity (Schwarzschild Curvature Invariant)
+### 1.10 Black Hole Singularity (Schwarzschild Curvature Invariant)
 
 **Mathematical form:**
 ```
@@ -267,7 +287,7 @@ At r = 0: K → ∞.
 
 ---
 
-### 1.10 Dipole Field
+### 1.11 Dipole Field
 
 **Mathematical form:**
 ```
@@ -291,7 +311,7 @@ As r → 0: E → ∞.
 
 ---
 
-### 1.11 Quadrupole and Higher Multipoles
+### 1.12 Quadrupole and Higher Multipoles
 
 **Mathematical form:**
 ```

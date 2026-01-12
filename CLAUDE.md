@@ -5,10 +5,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project Overview
 
 This repository contains academic research materials for papers on theoretical physics, specifically focusing on:
-- **Inertial Scale** - The relationship between time, space, and matter via inertia (t₁/t₂ = (I₂/I₁)^(1/5))
 - **Singularity Analysis** - A systematic critique of mathematical singularities in physics
 
-The core thesis is that singularities (division by zero "blow-ups") represent mathematical/logical errors rather than physical phenomena. For every finite input, there is a finite output.
+
+The core of this thesis is that many of the claims in physics around singularities, zeros, infinities, blow-ups, divergences, dividion by zero, negligibilities, model transitions, domain transitions, or regime transitoion, and other concepts that serve to define or redefine a model at some scale. So for example, in every case where somebody cites a division by zero because they rounded a number to something to a zero, that was an error. There is always, in those cases, there is always a finite input, or there is always a finite output for every finite input. Always. Limits fundamentally mean that you will never become that number or beyond it. Limits hold no matter how you interpret them. You don't ever hit that limit. There's never a physical point where you hit that limit. But there are a number of other ones where they claim a divergence meaning that for whatever reason it as it approaches zero or some number some discrete number some finite number it approaches it and that has a lot of meaning but it doesn't mean that it ever hits that number. But it has a lot of meaning and it doesn't mean it's a wall. Divergence isn't a wall. Divergence actually is more like the reciprocal of infinity. It might look like a wall but it's not. It's just infinity. Explosions, blow-ups - all those things are kind of fantasies. Any place where somebody took something, made a judgment call of what to do with the math, and then made a judgment call of what that meant - that's where I'm investigating. 
 
 ## Building LaTeX Documents
 
