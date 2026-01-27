@@ -11,34 +11,30 @@ There is a natural tendency for anyone observing the universe to see things only
 As is evidenced by the two examples above, humans commonly define anything beyond the periphery of what we can observe as non-existent. If I reach deep, it feels born of existential protectionism; kid gloves for our egos. Something analogous to hiding under a security blanket to protect yourself from the thunder. The unknown is unsettling, and our ego prefers the safety of complete knowledge. But again, the fundamental reason is that it's easy to presume that the only perspective we have is the only perspective there is. Self-deception would be very difficult to detect in such circumstances, especially with a significant payout in the form of psychological comfort. These are recurring themes for the pervasive mathematical challenges I describe herein.
 
 
-# Looking to the stars
+## Looking to the stars
 
 If we look up at the night sky, most stars don't stimulate more than one cone (the light detector) in our eyes, which means, from our perspective, a star could get no smaller; it's a point. We see their celestial behavior, so we know celestial objects have mass. Without more information, it would be easy to assume that these could be only point masses. Well, that's not true, but it's approximately true from our perspective. But if we were to look at how things behave leading up to that limit of detection, they're extremely consistent. If we presumed that the only change at the edge of our ability to observe was simply our ability to observe, we would have a much clearer understanding of the universe than we do under the weight of presumed boundaries. We must resist the tendency to think only in terms of our perspective, because that's where the fallacy lies. We should look at the trends and ask ourselves: why would the trends stop? Why would spatial extent cease to exist beyond some scale if it existed observably all the way to that scale? 
 
 The simple answer is: It does not cease to exist. It just ceases to be visible to us from our scale of observation, for a variety of reasons. And thus one should never trust one's instinct to disregard something that feels insignificant. To presume negligibility, and then to extend that by rounding to zero, and therefore producing a division by zero error. It's a faulty multi-step logical construct. The commonly used terms "negligible," "arbitrarily large," "very small," and "singularity," are all red flags for potential misunderstanding. signifying that many people today are still at risk of accepting or even representing, God forbid, the "fallacy of the arbitrary" as factual interpretation.
 
+
 # Review of Mathematical Concepts
+Before we dig too deep into the various arguments represent imcorrect usage or conclusions, let's briefly review some relevant mathematical concepts. The following are more or less the "dictionary definitions" followed by an example that demonstrates the proper usage and interpretation.
 
 ## Asymptotic Limits
 
 > $$\\text{As } x \\to \\infty, \\; \\frac{1}{x} \\to 0$$
 
-If somebody says, "as x goes to infinity, 1/x goes to zero", they're describing an asymptotic limit.
-
 > An asymptotic limit L of a function f(x) is a value that f(x) approaches arbitrarily closely as x goes to some point (often \infty), without necessarily ever reaching it.
-
-Simple example:
-For f(x) = \frac{1}{x}, the asymptotic limit as x \to \infty is 0, written \lim_{x\to\infty} \frac{1}{x} = 0.
 
 That's not to imply that infinity is a number; on the contrary, infinity describes the absence of a finite boundary. For every arbitrarily large number you could suggest, I could come up with a number one order of magnitude larger forever. 1/∞ works the same; infinity is still unbounded, it's the same infinity; it's 1 over the same number. But again, it's never infinity, it's never 0. Visually, 1/x plots on a x/y graph as a line that turns upward sharply at 1 and gets almost completely vertical as it gets ever closer to zero. It looks like a wall, but it is not. It's just the same as the infinity on the other side, just represented differently. There is no valid finite input that you can inject into that equation that does not return a finite output.
 
-<Insert graph here  >
-The plot above shows f(x)=1/x getting closer and closer to the x-axis (the horizontal asymptote y=0) as x increases. ￼
+<Insert graph here from this folder>
+The plot above shows f(x)=1/x getting closer and closer to the x-axis (the horizontal asymptote y=0) as x increases.
 
 In this context, both 0 and ∞ are not numbers but rather are the absence of a boundary.
 
 1.  The absence of a boundary for how small the number can get fractionally, which is unlimited.
-    
 2.  A limit to how far it can go, its extent, and that is unlimited.
 
 It becomes a problem because if one assumes that something that approaches 0 asymptotically reaches 0, they've now given themselves a pass to discard it.
@@ -95,6 +91,11 @@ That said, to my knowledge, this divergence still returns a finite output for ev
 **Example**:
 
 I<Need an example GR, but plot arbitrary large values to plot the curve>
+
+Conclusion: Summarize key insights.all systems must have both mass and extent.
+
+Implications and Opportunities: Consider high level implications and next steps for this research. Wha new questions can now be asked or answered under this undersanding? Does it represent a significant shift in our understanding of physics? How will we need to revise our models or theories, and what are the implications of those revisions?
+
 
 # Review of Physics Principles
 
@@ -301,9 +302,6 @@ Carnot principle
 
 
 
-Conclusion: Summarize key insights.all systems must have both mass and extent.
-
-Implications and Opportunities: Consider high level implications and next steps for this research. Wha new questions can now be asked or answered under this undersanding? Does it represent a significant shift in our understanding of physics? How will we need to revise our models or theories, and what are the implications of those revisions?
 
 
 
