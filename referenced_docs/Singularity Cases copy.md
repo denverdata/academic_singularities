@@ -47,7 +47,7 @@ At r = 1 cm: F ≈ 6.67 × 10⁻⁷ N.
 As r → 0: F → ∞.
 ```
 
-**Standard Physics Interpretation:**
+**Explanation:**
 It signals that the mathematical model has reached its limit of validity. In physics, this usually means an abstraction—like treating a star as a "point mass" with zero volume—is no longer applicable, and a more complex theory (like General Relativity or Quantum Mechanics) is required to describe the reality at that scale.
 
 ---
@@ -72,7 +72,7 @@ At r = 1 m: V ≈ -4.0×10¹⁴ J/kg.
 As r → 0: V → -∞.
 ```
 
-**Standard Physics Interpretation:** Real objects have finite size; Earth's potential stops following 1/r inside its radius where mass is distributed. For collapsed objects, General Relativity replaces Newtonian gravity, and quantum gravity is needed at Planck scales.
+**Explanation:** Real objects have finite size; Earth's potential stops following 1/r inside its radius where mass is distributed. For collapsed objects, General Relativity replaces Newtonian gravity, and quantum gravity is needed at Planck scales.
 
 ---
 
@@ -96,7 +96,7 @@ At r = 1 fm (nuclear scale): φ ≈ 1.44 MV.
 As r → 0: φ → +∞.
 ```
 
-**Standard Physics Interpretation:** Point charges are idealizations. Protons have finite radius (~0.87 fm); electrons are described by quantum wave functions spread over space. At small scales, quantum electrodynamics (QED) replaces classical electrostatics.
+**Explanation:** Point charges are idealizations. Protons have finite radius (~0.87 fm); electrons are described by quantum wave functions spread over space. At small scales, quantum electrodynamics (QED) replaces classical electrostatics.
 
 ---
 
@@ -120,7 +120,7 @@ At r = 10 μm: v_θ ≈ 16 km/s (supersonic).
 As r → 0: v_θ → ∞.
 ```
 
-**Standard Physics Interpretation:** Viscosity prevents infinite velocities. Real vortices have finite cores where the flow transitions to solid-body rotation (v_θ ∝ r). The Rankine vortex model and Burgers vortex provide physical core structures.
+**Explanation:** Viscosity prevents infinite velocities. Real vortices have finite cores where the flow transitions to solid-body rotation (v_θ ∝ r). The Rankine vortex model and Burgers vortex provide physical core structures.
 
 ---
 
@@ -144,7 +144,7 @@ At |x-x'| = 1 μm: G ≈ 8×10⁴.
 As |x-x'| → 0: G → ∞.
 ```
 
-**Standard Physics Interpretation:** The singularity is integrable in 3D (∫G dV is finite), which is why point sources produce finite potentials at finite distances. Green's functions encode how localized sources propagate influence through space—the singularity represents the source itself.
+**Explanation:** The singularity is integrable in 3D (∫G dV is finite), which is why point sources produce finite potentials at finite distances. Green's functions encode how localized sources propagate influence through space—the singularity represents the source itself.
 
 ---
 
@@ -168,7 +168,7 @@ At r = 1 fm: E ≈ 1.44×10²¹ V/m.
 As r → 0: E → ∞
 ```
 
-**Standard Physics Interpretation:** At nuclear scales, quantum electrodynamics (QED) describes electromagnetic interactions via virtual photon exchange. The field concept breaks down; instead, we calculate scattering amplitudes. Vacuum polarization also screens the bare charge at short distances.
+**Explanation:** At nuclear scales, quantum electrodynamics (QED) describes electromagnetic interactions via virtual photon exchange. The field concept breaks down; instead, we calculate scattering amplitudes. Vacuum polarization also screens the bare charge at short distances.
 
 ---
 
@@ -192,7 +192,7 @@ At r = 1 m: g ≈ 4×10¹⁴ m/s².
 As r → 0: g → ∞.
 ```
 
-**Standard Physics Interpretation:** Inside any extended mass distribution, g decreases toward zero at the center (only enclosed mass contributes). For collapsed objects approaching Schwarzschild radius, General Relativity replaces Newton's law. True point masses don't exist in nature.
+**Explanation:** Inside any extended mass distribution, g decreases toward zero at the center (only enclosed mass contributes). For collapsed objects approaching Schwarzschild radius, General Relativity replaces Newton's law. True point masses don't exist in nature.
 
 ---
 
@@ -216,7 +216,7 @@ At r = 10 km: F_tidal/m ≈ 3×10⁸ m/s² (spaghettification).
 As r → 0: F_tidal → ∞.
 ```
 
-**Standard Physics Interpretation:** Near compact objects, tidal forces become extreme ("spaghettification" near black holes). General Relativity properly describes these regimes. The singularity indicates where Newtonian tidal theory predicts infinite stretching—physically, objects are torn apart before reaching r = 0.
+**Explanation:** Near compact objects, tidal forces become extreme ("spaghettification" near black holes). General Relativity properly describes these regimes. The singularity indicates where Newtonian tidal theory predicts infinite stretching—physically, objects are torn apart before reaching r = 0.
 
 ---
 
@@ -240,7 +240,7 @@ At r = 1 fm (nuclear scale): F ≈ 230 N.
 As r → 0: F → +∞.
 ```
 
-**Standard Physics Interpretation:** At nuclear distances (~1 fm), the strong force dominates over electromagnetism, binding protons in nuclei despite Coulomb repulsion. At even shorter distances, quantum chromodynamics (QCD) governs quark interactions. Point charges are a classical idealization.
+**Explanation:** At nuclear distances (~1 fm), the strong force dominates over electromagnetism, binding protons in nuclei despite Coulomb repulsion. At even shorter distances, quantum chromodynamics (QCD) governs quark interactions. Point charges are a classical idealization.
 
 ---
 
@@ -264,7 +264,7 @@ At r = 1 Planck length (~1.6×10⁻³⁵ m): K ≈ 10²¹⁰ m⁻⁴.
 At r = 0: K → ∞.
 ```
 
-**Standard Physics Interpretation:** General Relativity predicts that matter collapses to a curvature singularity of zero volume and infinite density at r = 0. The Penrose-Hawking singularity theorems prove that singularity formation is inevitable under physically realistic conditions. This is distinct from the coordinate singularity at the Schwarzschild radius (r = r_s), which is an artifact of the coordinate system and can be removed by coordinate transformation. The singularity at r = 0 is considered physically real because coordinate-invariant quantities—such as the Kretschmann scalar—diverge there. Within mainstream physics, some hold this represents a genuine feature of spacetime; others hold it indicates where classical GR breaks down and quantum gravity is required.
+**Explanation:** General Relativity predicts that matter collapses to a curvature singularity of zero volume and infinite density at r = 0. The Penrose-Hawking singularity theorems prove that singularity formation is inevitable under physically realistic conditions. This is distinct from the coordinate singularity at the Schwarzschild radius (r = r_s), which is an artifact of the coordinate system and can be removed by coordinate transformation. The singularity at r = 0 is considered physically real because coordinate-invariant quantities—such as the Kretschmann scalar—diverge there. Within mainstream physics, some hold this represents a genuine feature of spacetime; others hold it indicates where classical GR breaks down and quantum gravity is required.
 
 ---
 
@@ -286,7 +286,7 @@ At r = 10 pm: E ≈ 3×10¹² V/m.
 As r → 0: E → ∞.
 ```
 
-**Standard Physics Interpretation:** Dipole fields arise from separated charges. At distances comparable to the charge separation, the dipole approximation fails and the full two-charge field must be used. At atomic scales, quantum mechanics describes electron distributions; point dipoles don't exist.
+**Explanation:** Dipole fields arise from separated charges. At distances comparable to the charge separation, the dipole approximation fails and the full two-charge field must be used. At atomic scales, quantum mechanics describes electron distributions; point dipoles don't exist.
 
 ---
 
@@ -309,7 +309,7 @@ At r = 10 pm: E ≈ 10¹¹ V/m.
 As r → 0: E → ∞ (as r⁻⁴).
 ```
 
-**Standard Physics Interpretation:** Multipole expansions are only valid at distances large compared to the source size. The faster divergence of higher multipoles means they dominate at short range but are negligible far away. This mathematical structure underlies why atomic interactions are well-described by low-order multipoles.
+**Explanation:** Multipole expansions are only valid at distances large compared to the source size. The faster divergence of higher multipoles means they dominate at short range but are negligible far away. This mathematical structure underlies why atomic interactions are well-described by low-order multipoles.
 
 ---
 
@@ -349,7 +349,7 @@ Relativistic momentum:  p = γm₀v → ∞
 Length contraction:     L = L₀/γ → 0  as v → c
 ```
 
-**Standard Physics Interpretation:** In special relativity, the Lorentz factor γ diverges as v approaches c, indicating that accelerating a massive particle to light speed would require infinite energy. Massless particles (photons) travel exactly at c and experience no proper time. The speed of light serves as the universal speed limit, preserving causality in spacetime.
+**Explanation:** In special relativity, the Lorentz factor γ diverges as v approaches c, indicating that accelerating a massive particle to light speed would require infinite energy. Massless particles (photons) travel exactly at c and experience no proper time. The speed of light serves as the universal speed limit, preserving causality in spacetime.
 
 ---
 
@@ -372,7 +372,7 @@ At γ = 0.01 s⁻¹: A_max ≈ 10 F₀/m.
 As γ → 0: A_max → ∞.
 ```
 
-**Standard Physics Interpretation:** All real systems have damping (friction, radiation, etc.). The resonance singularity reveals that undamped oscillators would accumulate infinite energy when driven at their natural frequency. This mathematical infinity tells us that energy dissipation is essential for stable systems.
+**Explanation:** All real systems have damping (friction, radiation, etc.). The resonance singularity reveals that undamped oscillators would accumulate infinite energy when driven at their natural frequency. This mathematical infinity tells us that energy dissipation is essential for stable systems.
 
 ---
 
@@ -396,7 +396,7 @@ At r = 1.01rₛ: g_rr = 100.
 At r = rₛ: g_rr → ∞.
 ```
 
-**Standard Physics Interpretation:** The horizon singularity is a coordinate artifact, not physical. Eddington-Finkelstein or Kruskal-Szekeres coordinates are regular there. An infalling observer notices nothing special crossing the horizon. This teaches us that coordinate singularities can hide smooth physics and choosing the right coordinates matters.
+**Explanation:** The horizon singularity is a coordinate artifact, not physical. Eddington-Finkelstein or Kruskal-Szekeres coordinates are regular there. An infalling observer notices nothing special crossing the horizon. This teaches us that coordinate singularities can hide smooth physics and choosing the right coordinates matters.
 
 ---
 
@@ -420,7 +420,7 @@ At Γ = 1 keV: σ_max ∝ 4×10⁶.
 As Γ → 0: σ_max → ∞.
 ```
 
-**Standard Physics Interpretation:** All resonances have finite width Γ = ℏ/τ due to their finite lifetime τ. The mathematical singularity at Γ = 0 would imply an infinitely long-lived state. Quantum uncertainty prevents perfect energy sharpness—the resonance width encodes the decay rate.
+**Explanation:** All resonances have finite width Γ = ℏ/τ due to their finite lifetime τ. The mathematical singularity at Γ = 0 would imply an infinitely long-lived state. Quantum uncertainty prevents perfect energy sharpness—the resonance width encodes the decay rate.
 
 ---
 
@@ -444,7 +444,7 @@ At |p² - m²c²| = 0.0001 GeV²: G ≈ 10,000 GeV⁻².
 As p² → m²c²: G → ∞.
 ```
 
-**Standard Physics Interpretation:** The pole occurs when momentum satisfies the on-shell condition, indicating a real particle state. In scattering calculations, the iε prescription (p² - m² + iε) moves the pole off the real axis, yielding well-defined results. The pole locations correspond to physical particle masses.
+**Explanation:** The pole occurs when momentum satisfies the on-shell condition, indicating a real particle state. In scattering calculations, the iε prescription (p² - m² + iε) moves the pole off the real axis, yielding well-defined results. The pole locations correspond to physical particle masses.
 
 ---
 
@@ -476,7 +476,7 @@ At R = 1 m: ρ ≈ 1.4×10²⁴ kg/m³.
 As R → 0: ρ → ∞.
 ```
 
-**Standard Physics Interpretation:** Point masses are mathematical conveniences that simplify calculations when only the gravitational effect at large distances matters. Real objects have finite extent. When density approaches nuclear values (~10¹⁷ kg/m³), matter transforms (neutron stars); beyond that, black holes form, hiding the singularity.
+**Explanation:** Point masses are mathematical conveniences that simplify calculations when only the gravitational effect at large distances matters. Real objects have finite extent. When density approaches nuclear values (~10¹⁷ kg/m³), matter transforms (neutron stars); beyond that, black holes form, hiding the singularity.
 
 ---
 
@@ -501,7 +501,7 @@ At R = 1 fm: ρ ≈ 3.8×10¹⁹ C/m³.
 As R → 0: ρ → ∞.
 ```
 
-**Standard Physics Interpretation:** Electrons have no known substructure, but quantum mechanics spreads their wave function over space. The "point charge" is an effective description; the electron's charge density follows |ψ|². At high energies, QED treats electrons as point particles with infinite "bare" charge that renormalizes to the observed value.
+**Explanation:** Electrons have no known substructure, but quantum mechanics spreads their wave function over space. The "point charge" is an effective description; the electron's charge density follows |ψ|². At high energies, QED treats electrons as point particles with infinite "bare" charge that renormalizes to the observed value.
 
 ---
 
@@ -524,7 +524,7 @@ At d = 1 nm: ρ = 10³ C/m³.
 As d → 0: ρ → ∞.
 ```
 
-**Standard Physics Interpretation:** True 2D charge distributions don't exist—they always have some thickness. Surface charge is a useful approximation when the thickness is much smaller than other relevant length scales. At atomic scales, "surfaces" are electron density distributions with finite extent.
+**Explanation:** True 2D charge distributions don't exist—they always have some thickness. Surface charge is a useful approximation when the thickness is much smaller than other relevant length scales. At atomic scales, "surfaces" are electron density distributions with finite extent.
 
 ---
 
@@ -547,7 +547,7 @@ At R = 1 nm: ρ ≈ 3×10¹¹ C/m³.
 As R → 0: ρ → ∞.
 ```
 
-**Standard Physics Interpretation:** Line charges are idealizations useful when the wire radius is much smaller than the distance at which the field is measured. Real wires have finite cross-section. The singularity reminds us that all physical charge distributions are three-dimensional.
+**Explanation:** Line charges are idealizations useful when the wire radius is much smaller than the distance at which the field is measured. Real wires have finite cross-section. The singularity reminds us that all physical charge distributions are three-dimensional.
 
 ---
 
@@ -572,7 +572,7 @@ At Δt = 1 μs: F = 10⁷ N.
 As Δt → 0: F → ∞.
 ```
 
-**Standard Physics Interpretation:** True instantaneous forces don't exist—all interactions take finite time. The delta function idealization is useful when the collision time is much shorter than other timescales of interest. At short enough times, detailed force-time profiles matter (material deformation, wave propagation).
+**Explanation:** True instantaneous forces don't exist—all interactions take finite time. The delta function idealization is useful when the collision time is much shorter than other timescales of interest. At short enough times, detailed force-time profiles matter (material deformation, wave propagation).
 
 ### 3.6 Dirac Delta Function
 
@@ -595,7 +595,7 @@ At σ = 0.01: peak height ≈ 40.
 As σ → 0: peak height → ∞.
 ```
 
-**Standard Physics Interpretation:** The delta function is mathematically rigorous as a distribution (linear functional on test functions). It represents perfect localization—the limit of increasingly concentrated functions. Its appearance in physics signals point sources, instantaneous events, or sharp boundaries. It's the mathematician's idealization of "concentrated at a point."
+**Explanation:** The delta function is mathematically rigorous as a distribution (linear functional on test functions). It represents perfect localization—the limit of increasingly concentrated functions. Its appearance in physics signals point sources, instantaneous events, or sharp boundaries. It's the mathematician's idealization of "concentrated at a point."
 
 ---
 
@@ -626,7 +626,7 @@ At ε = 10⁻¹⁰⁰: ∫ = 230.
 As ε → 0: ∫ → ∞ (slowly).
 ```
 
-**Standard Physics Interpretation:** Logarithmic divergences are the "mildest" infinities—they grow slowly and often cancel when comparing physical quantities. In QED, logarithmic divergences appear in loop corrections and are absorbed by renormalization. The slow growth makes these theories "renormalizable" and predictive.
+**Explanation:** Logarithmic divergences are the "mildest" infinities—they grow slowly and often cancel when comparing physical quantities. In QED, logarithmic divergences appear in loop corrections and are absorbed by renormalization. The slow growth makes these theories "renormalizable" and predictive.
 
 ---
 
@@ -650,7 +650,7 @@ At r = r_e / 1000 ≈ 2.82×10⁻¹⁸ m: U ≈ 310 MeV.
 As r → 0: U → ∞.
 ```
 
-**Standard Physics Interpretation:** This infinite self-energy was a major crisis for classical electrodynamics. The solution in Quantum Electrodynamics (QED) is renormalization, where infinite "bare" quantities are absorbed to yield finite measured values. The divergence drove the development of modern quantum field theory.
+**Explanation:** This infinite self-energy was a major crisis for classical electrodynamics. The solution in Quantum Electrodynamics (QED) is renormalization, where infinite "bare" quantities are absorbed to yield finite measured values. The divergence drove the development of modern quantum field theory.
 
 ---
 
@@ -674,7 +674,7 @@ At Λ = 10¹⁹ GeV (Planck): ∫ ~ 10³⁸ GeV².
 As Λ → ∞: ∫ → ∞.
 ```
 
-**Standard Physics Interpretation:** UV divergences indicate that quantum field theories require renormalization at high energies. The renormalization procedure absorbs divergent quantities into redefined parameters. In effective field theory, the cutoff Λ represents the energy scale where the theory's assumptions may no longer hold and new physics could enter.
+**Explanation:** UV divergences indicate that quantum field theories require renormalization at high energies. The renormalization procedure absorbs divergent quantities into redefined parameters. In effective field theory, the cutoff Λ represents the energy scale where the theory's assumptions may no longer hold and new physics could enter.
 
 ---
 
@@ -697,7 +697,7 @@ At λ = 10 nm (UV): B_λ ≈ 2.48×10²⁰ W·sr⁻¹·m⁻³.
 As λ → 0: B_λ → ∞.
 ```
 
-**Standard Physics Interpretation:** This infinity contradicted experiment. Max Planck resolved it by quantizing energy, leading to Planck's Law: B_λ = (2hc²/λ⁵) × 1/(e^(hc/(λk_BT)) - 1). The exponential suppresses short wavelengths. The divergence forced the birth of quantum mechanics.
+**Explanation:** This infinity contradicted experiment. Max Planck resolved it by quantizing energy, leading to Planck's Law: B_λ = (2hc²/λ⁵) × 1/(e^(hc/(λk_BT)) - 1). The exponential suppresses short wavelengths. The divergence forced the birth of quantum mechanics.
 
 ---
 
@@ -719,7 +719,7 @@ At m = 1 MeV: ∫ ~ ln(Λ/m) ~ 10.
 At m = 0: ∫ → ∞.
 ```
 
-**Standard Physics Interpretation:** IR divergences in QED from soft photon emission cancel when including all physical processes (Bloch-Nordsieck theorem). Massless particles cause trouble because arbitrarily low-energy modes exist. In practice, any detector has finite resolution, providing a physical IR cutoff.
+**Explanation:** IR divergences in QED from soft photon emission cancel when including all physical processes (Bloch-Nordsieck theorem). Massless particles cause trouble because arbitrarily low-energy modes exist. In practice, any detector has finite resolution, providing a physical IR cutoff.
 
 ---
 
@@ -743,7 +743,7 @@ Up to Planck scale: E_0/V ~ 10¹¹³ J/m³.
 As k_max → ∞: E_0/V → ∞.
 ```
 
-**Standard Physics Interpretation:** Zero-point energy is real (Casimir effect) but the infinite sum is cutoff-dependent. In most physics, only energy differences matter, so the infinity cancels. The cosmological constant problem—why the observed dark energy is 10¹²⁰ times smaller than naive estimates—remains unsolved.
+**Explanation:** Zero-point energy is real (Casimir effect) but the infinite sum is cutoff-dependent. In most physics, only energy differences matter, so the infinity cancels. The cosmological constant problem—why the observed dark energy is 10¹²⁰ times smaller than naive estimates—remains unsolved.
 
 ---
 
@@ -773,7 +773,7 @@ S_10⁶ ≈ 14.4.
 As N → ∞: S_N → ∞ (very slowly).
 ```
 
-**Standard Physics Interpretation:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/12 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
+**Explanation:** The harmonic series is the prototype of a "barely divergent" series—each term is small but not small enough. Regularization techniques (zeta function, etc.) assign finite values (-1/12 for ζ(-1)) but only in specific mathematical contexts. In physics, such series often appear with cutoffs that make them finite.
 
 ---
 
@@ -797,7 +797,7 @@ n = 100: term ~ 100!/(137)¹⁰⁰ ~ 10⁵⁴ (huge!).
 Optimal truncation: around n ~ 137 gives best accuracy.
 ```
 
-**Standard Physics Interpretation:** Asymptotic series capture physics accurately when truncated appropriately—typically at the smallest term. Beyond that, non-perturbative effects (instantons) dominate. Resurgence theory shows how divergent perturbative series connect to non-perturbative physics through Borel summation.
+**Explanation:** Asymptotic series capture physics accurately when truncated appropriately—typically at the smallest term. Beyond that, non-perturbative effects (instantons) dominate. Resurgence theory shows how divergent perturbative series connect to non-perturbative physics through Borel summation.
 
 ---
 
@@ -820,7 +820,7 @@ At T = 0.99T_H: Z ~ 10¹⁰⁰.
 At T = T_H: Z → ∞ (series diverges).
 ```
 
-**Standard Physics Interpretation:** The Hagedorn temperature isn't the maximum temperature—it's where the partition function formalism breaks down. In string theory, T_H signals a phase transition where strings form a "string gas" or the system transitions to a deconfined phase. The divergence reveals qualitative change in the system's nature.
+**Explanation:** The Hagedorn temperature isn't the maximum temperature—it's where the partition function formalism breaks down. In string theory, T_H signals a phase transition where strings form a "string gas" or the system transitions to a deconfined phase. The divergence reveals qualitative change in the system's nature.
 
 ---
 
@@ -842,7 +842,7 @@ At Λ_Landau ≈ m_e × exp(3π/(2α₀)) ≈ 10²⁸⁰ GeV.
 As Q → Λ_Landau from below: α → ∞.
 ```
 
-**Standard Physics Interpretation:** This "triviality" problem suggests that pure QED is not mathematically consistent to arbitrarily high energies. The divergence forces us to consider that QED must be embedded in a larger theory (like the Standard Model or a Grand Unified Theory) which modifies its high-energy behavior, or that new physics must appear to cut off the growth.
+**Explanation:** This "triviality" problem suggests that pure QED is not mathematically consistent to arbitrarily high energies. The divergence forces us to consider that QED must be embedded in a larger theory (like the Standard Model or a Grand Unified Theory) which modifies its high-energy behavior, or that new physics must appear to cut off the growth.
 
 ---
 
@@ -869,7 +869,7 @@ At x = 0.01: sin(0.01)/0.01 ≈ 0.99998.
 At x = 0: 0/0 = ?  →  L'Hôpital: cos(0)/1 = 1.
 ```
 
-**Standard Physics Interpretation:** L'Hôpital's rule or Taylor expansion resolves 0/0 forms. In physics, 0/0 often appears in limiting cases where two competing effects balance. The resolved limit reveals the dominant behavior—sinc(x) = sin(x)/x is smooth because sine's approach to zero matches x's.
+**Explanation:** L'Hôpital's rule or Taylor expansion resolves 0/0 forms. In physics, 0/0 often appears in limiting cases where two competing effects balance. The resolved limit reveals the dominant behavior—sinc(x) = sin(x)/x is smooth because sine's approach to zero matches x's.
 
 ---
 
@@ -890,7 +890,7 @@ At x = 100: 10000/e¹⁰⁰ ~ 10⁻³⁹.
 As x → ∞: x²/e^x → 0 (exponential wins).
 ```
 
-**Standard Physics Interpretation:** Growth rate comparisons resolve ∞/∞: exponentials beat polynomials beat logarithms. L'Hôpital's rule can be applied iteratively. In physics, this determines which effects dominate at extreme scales—exponential suppression (Boltzmann, tunneling) ultimately wins over polynomial growth.
+**Explanation:** Growth rate comparisons resolve ∞/∞: exponentials beat polynomials beat logarithms. L'Hôpital's rule can be applied iteratively. In physics, this determines which effects dominate at extreme scales—exponential suppression (Boltzmann, tunneling) ultimately wins over polynomial growth.
 
 ---
 
@@ -911,7 +911,7 @@ At x = 0.001: 0.001×(-6.9) ≈ -0.0069.
 As x → 0⁺: x·ln(x) → 0 (zero wins over log divergence).
 ```
 
-**Standard Physics Interpretation:** The 0·∞ form requires determining which factor "wins." The resolution often involves entropy calculations (S ~ -Σp ln p) where p → 0 contributions vanish. This explains why systems with zero probability events contribute nothing to entropy.
+**Explanation:** The 0·∞ form requires determining which factor "wins." The resolution often involves entropy calculations (S ~ -Σp ln p) where p → 0 contributions vanish. This explains why systems with zero probability events contribute nothing to entropy.
 
 ---
 
@@ -932,7 +932,7 @@ At x = 1000: approaches 0.
 As x → ∞: limit = 0.
 ```
 
-**Standard Physics Interpretation:** Renormalization in QFT is sophisticated ∞ - ∞: subtracting infinite counterterms from infinite bare quantities to get finite physical results. The mathematical framework (dimensional regularization, cutoff schemes) makes this precise. The result is not arbitrary—it's determined by physical requirements like gauge invariance.
+**Explanation:** Renormalization in QFT is sophisticated ∞ - ∞: subtracting infinite counterterms from infinite bare quantities to get finite physical results. The mathematical framework (dimensional regularization, cutoff schemes) makes this precise. The result is not arbitrary—it's determined by physical requirements like gauge invariance.
 
 ---
 
@@ -958,7 +958,7 @@ At n = 1000: 2.717.
 As n → ∞: (1 + 1/n)^n → e ≈ 2.718...
 ```
 
-**Standard Physics Interpretation:** These indeterminate forms yield definite limits through careful analysis. The emergence of e from (1 + 1/n)^n exemplifies how "infinitesimally small" changes accumulated "infinitely many" times can produce finite, precise results—the foundation of continuous compounding and exponential growth in finance, physics, and biology.
+**Explanation:** These indeterminate forms yield definite limits through careful analysis. The emergence of e from (1 + 1/n)^n exemplifies how "infinitesimally small" changes accumulated "infinitely many" times can produce finite, precise results—the foundation of continuous compounding and exponential growth in finance, physics, and biology.
 
 ---
 
@@ -989,7 +989,7 @@ At v = 0.999999c: E ≈ 362 MeV.
 As v → c: E → ∞, p → ∞.
 ```
 
-**Standard Physics Interpretation:** In special relativity, c serves as both the universal speed limit and the conversion factor between space and time dimensions. Massive particles asymptotically approach c, requiring ever-increasing energy for diminishing velocity gains. The divergence at v = c enforces causality by preventing superluminal travel. Massless particles travel exactly at v = c.
+**Explanation:** In special relativity, c serves as both the universal speed limit and the conversion factor between space and time dimensions. Massive particles asymptotically approach c, requiring ever-increasing energy for diminishing velocity gains. The divergence at v = c enforces causality by preventing superluminal travel. Massless particles travel exactly at v = c.
 
 ---
 
@@ -1014,7 +1014,7 @@ Nuclear demagnetization: T ≈ 100 pK.
 T = 0: unreachable in finite steps.
 ```
 
-**Standard Physics Interpretation:** The Third Law of Thermodynamics states that absolute zero cannot be reached in a finite number of steps. As temperature approaches zero, removing the remaining entropy requires progressively more work. At extremely low temperatures, quantum effects dominate and systems approach their ground states. The coldest temperatures achieved in laboratories (~100 pK) demonstrate quantum ground state behavior.
+**Explanation:** The Third Law of Thermodynamics states that absolute zero cannot be reached in a finite number of steps. As temperature approaches zero, removing the remaining entropy requires progressively more work. At extremely low temperatures, quantum effects dominate and systems approach their ground states. The coldest temperatures achieved in laboratories (~100 pK) demonstrate quantum ground state behavior.
 
 ---
 
@@ -1037,7 +1037,7 @@ At r = 1.01rₛ: z ≈ 9 (wavelength ×10).
 At r = rₛ: z → ∞.
 ```
 
-**Standard Physics Interpretation:** The horizon is a coordinate singularity, not a physical one. An infalling observer crosses in finite proper time, experiencing nothing dramatic locally. The infinite redshift seen by distant observers explains why black holes appear "frozen"—the last light takes infinite time to reach us. This exemplifies observer-dependence in General Relativity.
+**Explanation:** The horizon is a coordinate singularity, not a physical one. An infalling observer crosses in finite proper time, experiencing nothing dramatic locally. The infinite redshift seen by distant observers explains why black holes appear "frozen"—the last light takes infinite time to reach us. This exemplifies observer-dependence in General Relativity.
 
 ---
 
@@ -1059,7 +1059,7 @@ T_cold = 3 K: η_max = 99.5%.
 T_cold → 0: η_max → 100% (unattainable).
 ```
 
-**Standard Physics Interpretation:** The Carnot limit is thermodynamics' fundamental constraint—no engine can exceed it. Real engines face additional losses (friction, heat leaks) and achieve ~40-60% of Carnot efficiency. The impossibility of 100% efficiency (requiring T_cold = 0 or T_hot = ∞) is equivalent to the Second Law—perpetual motion machines are impossible.
+**Explanation:** The Carnot limit is thermodynamics' fundamental constraint—no engine can exceed it. Real engines face additional losses (friction, heat leaks) and achieve ~40-60% of Carnot efficiency. The impossibility of 100% efficiency (requiring T_cold = 0 or T_hot = ∞) is equivalent to the Second Law—perpetual motion machines are impossible.
 
 ---
 
@@ -1095,7 +1095,7 @@ At T = 3 K: transition width ~0.3 meV.
 At T = 0: f = 1 for E < μ, f = 0 for E > μ (perfect step).
 ```
 
-**Standard Physics Interpretation:** Jump discontinuities are idealizations that simplify analysis. Real systems have finite transition widths (thermal broadening, quantum tunneling). The Fermi surface becomes sharp only at T = 0; at finite T, the step is smoothed over ~kT. Such discontinuities define phase boundaries and sharp interfaces.
+**Explanation:** Jump discontinuities are idealizations that simplify analysis. Real systems have finite transition widths (thermal broadening, quantum tunneling). The Fermi surface becomes sharp only at T = 0; at finite T, the step is smoothed over ~kT. Such discontinuities define phase boundaries and sharp interfaces.
 
 ---
 
@@ -1124,7 +1124,7 @@ Volume change ΔV/V ≈ -8% (ice less dense).
 At transition: G continuous, but dG/dT and dG/dP discontinuous.
 ```
 
-**Standard Physics Interpretation:** Cusps and kinks in thermodynamic potentials indicate first-order phase transitions. The discontinuity in dG/dT = -S corresponds to an entropy jump, with latent heat released or absorbed during the transition. These discontinuities mark phase coexistence regions. Ehrenfest classified phase transitions by which derivative of the Gibbs free energy is discontinuous.
+**Explanation:** Cusps and kinks in thermodynamic potentials indicate first-order phase transitions. The discontinuity in dG/dT = -S corresponds to an entropy jump, with latent heat released or absorbed during the transition. These discontinuities mark phase coexistence regions. Ehrenfest classified phase transitions by which derivative of the Gibbs free energy is discontinuous.
 
 ---
 
@@ -1147,7 +1147,7 @@ At |T - T_λ| = 0.001 K: C_p ≈ 200 J/(mol·K).
 At T = T_λ: C_p → ∞ (power-law divergence, α ≈ -0.01).
 ```
 
-**Standard Physics Interpretation:** Second-order (continuous) phase transitions have divergent susceptibilities and correlation lengths but continuous order parameters. The lambda transition marks the onset of superfluidity—a macroscopic quantum state. These singularities reveal universal behavior independent of microscopic details (universality classes).
+**Explanation:** Second-order (continuous) phase transitions have divergent susceptibilities and correlation lengths but continuous order parameters. The lambda transition marks the onset of superfluidity—a macroscopic quantum state. These singularities reveal universal behavior independent of microscopic details (universality classes).
 
 ---
 
@@ -1173,7 +1173,7 @@ T₂ ≈ 480 K (1.7× jump).
 Shock thickness: ~few mean free paths (~0.1 μm).
 ```
 
-**Standard Physics Interpretation:** Shock discontinuities arise when supersonic flow cannot communicate changes smoothly. The "infinite" derivative is regularized by viscosity over a few molecular mean free paths. Shock waves demonstrate how conservation laws persist even through discontinuities—nature finds singular solutions when smooth ones don't exist.
+**Explanation:** Shock discontinuities arise when supersonic flow cannot communicate changes smoothly. The "infinite" derivative is regularized by viscosity over a few molecular mean free paths. Shock waves demonstrate how conservation laws persist even through discontinuities—nature finds singular solutions when smooth ones don't exist.
 
 ---
 
@@ -1205,7 +1205,7 @@ At T = 1043.001 K (|T-T_c| = 0.001 K): χ ~ (0.001)^(-1.2) ≈ 2500 times larger
 As T → T_c: χ → ∞. The material becomes infinitely sensitive to external fields.
 ```
 
-**Standard Physics Interpretation:** At critical points, susceptibility and correlation length diverge with universal power-law exponents. Renormalization group theory explains why different physical systems (magnets, fluids, etc.) share the same critical exponents when they belong to the same universality class. These divergences mark continuous (second-order) phase transitions where fluctuations occur at all length scales.
+**Explanation:** At critical points, susceptibility and correlation length diverge with universal power-law exponents. Renormalization group theory explains why different physical systems (magnets, fluids, etc.) share the same critical exponents when they belong to the same universality class. These divergences mark continuous (second-order) phase transitions where fluctuations occur at all length scales.
 
 ---
 
@@ -1236,7 +1236,7 @@ After 2π rotation (z = 1): √z = -1 (not +1!).
 After 4π rotation (z = 1): √z = +1 (back to start).
 ```
 
-**Standard Physics Interpretation:** Branch points arise where complex functions become multi-valued. The function √z naturally lives on a two-sheeted Riemann surface, with z = 0 as the branch point connecting the sheets. In physics, branch points at k = ±im mark particle production thresholds, with their locations determining particle masses.
+**Explanation:** Branch points arise where complex functions become multi-valued. The function √z naturally lives on a two-sheeted Riemann surface, with z = 0 as the branch point connecting the sheets. In physics, branch points at k = ±im mark particle production thresholds, with their locations determining particle masses.
 
 ---
 
@@ -1260,7 +1260,7 @@ After 4π rotation: ln(z) = 4πi.
 After 2πn rotation: ln(z) = 2πni (infinitely many sheets).
 ```
 
-**Standard Physics Interpretation:** The logarithm has infinitely many branches—it lives on a helical Riemann surface with infinitely many sheets. This structure appears in phase accumulation (quantum mechanics, optics) and explains why angles are defined modulo 2π. The 2D Green's function's ln(r) behavior explains why 2D systems are special.
+**Explanation:** The logarithm has infinitely many branches—it lives on a helical Riemann surface with infinitely many sheets. This structure appears in phase accumulation (quantum mechanics, optics) and explains why angles are defined modulo 2π. The 2D Green's function's ln(r) behavior explains why 2D systems are special.
 
 ---
 
@@ -1288,7 +1288,7 @@ At r = 1 μm: |E| ~ very small.
 At r = 0 (center): |E| = 0 exactly, phase undefined.
 ```
 
-**Standard Physics Interpretation:** The phase singularity at the vortex core is topologically protected—it cannot be removed by smooth deformation. The amplitude must vanish there to keep the field single-valued. This is the prototype for topological defects in physics: superfluid vortices, cosmic strings, and magnetic vortices in superconductors all share this structure.
+**Explanation:** The phase singularity at the vortex core is topologically protected—it cannot be removed by smooth deformation. The amplitude must vanish there to keep the field single-valued. This is the prototype for topological defects in physics: superfluid vortices, cosmic strings, and magnetic vortices in superconductors all share this structure.
 
 ---
 
@@ -1313,7 +1313,7 @@ At E = 1300 MeV: σ falling.
 Pole location: E_pole = 1210 - 50i MeV (on second sheet).
 ```
 
-**Standard Physics Interpretation:** Resonances appear as poles on unphysical Riemann sheets, not on the physical one. The real part gives the resonance energy; the imaginary part gives the width (lifetime). This elegant structure explains why short-lived particles show up as bumps in cross-sections—they're shadows of poles just below the real axis.
+**Explanation:** Resonances appear as poles on unphysical Riemann sheets, not on the physical one. The real part gives the resonance energy; the imaginary part gives the width (lifetime). This elegant structure explains why short-lived particles show up as bumps in cross-sections—they're shadows of poles just below the real axis.
 
 ---
 
@@ -1346,7 +1346,7 @@ At z = -0.1: e^(1/z) = e⁻¹⁰ ≈ 5×10⁻⁵.
 At z → 0: behavior depends entirely on approach direction.
 ```
 
-**Standard Physics Interpretation:** Essential singularities are the "wildest" type—the function has no well-defined limit and takes almost every value infinitely often nearby (Picard's theorem). In physics, essential singularities appear in non-perturbative phenomena. They cannot be "fixed" but signal genuinely complex behavior requiring non-Taylor methods.
+**Explanation:** Essential singularities are the "wildest" type—the function has no well-defined limit and takes almost every value infinitely often nearby (Picard's theorem). In physics, essential singularities appear in non-perturbative phenomena. They cannot be "fixed" but signal genuinely complex behavior requiring non-Taylor methods.
 
 ---
 
@@ -1374,7 +1374,7 @@ At E = 0.5 E_crit: rate ~ e⁻⁶ ≈ 0.002.
 At E = E_crit: rate ~ e⁻π ≈ 0.04 (significant).
 ```
 
-**Standard Physics Interpretation:** Non-perturbative effects are invisible to perturbation theory (all Taylor coefficients at g = 0 vanish for e^(-1/g)). They represent tunneling, instantons, and vacuum decay—fundamentally quantum phenomena. Understanding these requires methods beyond perturbation theory: saddle-point approximation, instanton calculus, resurgence.
+**Explanation:** Non-perturbative effects are invisible to perturbation theory (all Taylor coefficients at g = 0 vanish for e^(-1/g)). They represent tunneling, instantons, and vacuum decay—fundamentally quantum phenomena. Understanding these requires methods beyond perturbation theory: saddle-point approximation, instanton calculus, resurgence.
 
 ---
 
@@ -1397,7 +1397,7 @@ At x = -10: Ai(x) ≈ 0.04 sin(...) (oscillatory).
 Across Stokes line at arg(x) = 2π/3: subdominant term appears.
 ```
 
-**Standard Physics Interpretation:** Stokes phenomenon shows that asymptotic expansions change form discontinuously in the complex plane. The "switch" is not a physical discontinuity but reflects how we must choose which exponentials to include. This has deep connections to resurgence theory and explains how perturbative and non-perturbative physics connect.
+**Explanation:** Stokes phenomenon shows that asymptotic expansions change form discontinuously in the complex plane. The "switch" is not a physical discontinuity but reflects how we must choose which exponentials to include. This has deep connections to resurgence theory and explains how perturbative and non-perturbative physics connect.
 
 ---
 
@@ -1430,7 +1430,7 @@ At r = 1 nm: v_θ ≈ 16 m/s.
 At r = a: v_θ ~ 160 m/s (core region; superfluid breaks down).
 ```
 
-**Standard Physics Interpretation:** Vortex cores are topological defects—they cannot be smoothly removed because the phase must wind by 2πn around them. The core size is set by the coherence length where the order parameter heals. These quantized vortices are directly observed in superfluids and superconductors, confirming quantum mechanics on macroscopic scales.
+**Explanation:** Vortex cores are topological defects—they cannot be smoothly removed because the phase must wind by 2πn around them. The core size is set by the coherence length where the order parameter heals. These quantized vortices are directly observed in superfluids and superconductors, confirming quantum mechanics on macroscopic scales.
 
 ---
 
@@ -1453,7 +1453,7 @@ For R = 1 nm: B ≈ 1.3×10³ T.
 As R → 0: B → ∞.
 ```
 
-**Standard Physics Interpretation:** This mathematical singularity in B is not physically observable. The measurable effect—the quantum phase shift Δφ = (e/ℏ)Φ for an electron encircling the solenoid—remains finite (e.g., 2π for one flux quantum). The divergence highlights the physical reality of the vector potential A and reveals a deep topological property of electromagnetism in quantum theory.
+**Explanation:** This mathematical singularity in B is not physically observable. The measurable effect—the quantum phase shift Δφ = (e/ℏ)Φ for an electron encircling the solenoid—remains finite (e.g., 2π for one flux quantum). The divergence highlights the physical reality of the vector potential A and reveals a deep topological property of electromagnetism in quantum theory.
 
 ---
 
@@ -1479,7 +1479,7 @@ At r = 1 μm: B ≈ 3.3×10³ T.
 At r = 0: B → ∞ (string singularity).
 ```
 
-**Standard Physics Interpretation:** The Dirac string is unphysical—it's a gauge artifact that can be moved but not removed. If monopoles exist, their magnetic field's singularity requires the string, but quantum mechanics makes it unobservable if eg = nℏc/2. This topological argument beautifully explains why electric charge is quantized if even one monopole exists anywhere in the universe.
+**Explanation:** The Dirac string is unphysical—it's a gauge artifact that can be moved but not removed. If monopoles exist, their magnetic field's singularity requires the string, but quantum mechanics makes it unobservable if eg = nℏc/2. This topological argument beautifully explains why electric charge is quantized if even one monopole exists anywhere in the universe.
 
 ---
 
@@ -1504,7 +1504,7 @@ Looking through: doubled images separated by ~arcsecond.
 At r = 0: curvature = δ-function, infinite Ricci scalar.
 ```
 
-**Standard Physics Interpretation:** Conical singularities are "mild"—spacetime is flat except at the tip where curvature concentrates as a delta function. Unlike black hole singularities, test particles can pass through unharmed. They appear in cosmic string models, 2+1D gravity, and orbifolds. The deficit angle directly encodes the mass/energy creating the singularity.
+**Explanation:** Conical singularities are "mild"—spacetime is flat except at the tip where curvature concentrates as a delta function. Unlike black hole singularities, test particles can pass through unharmed. They appear in cosmic string models, 2+1D gravity, and orbifolds. The deficit angle directly encodes the mass/energy creating the singularity.
 
 ---
 
@@ -1533,7 +1533,7 @@ At t = 1 Planck time (~5.39×10⁻⁴⁴ sec): ρ ≈ ρ₁ × 3.44×10⁸⁷.
 At t = 0: ρ → ∞.
 ```
 
-**Standard Physics Interpretation:** As the scale factor a → 0, density and spacetime curvature diverge—this is the initial cosmological singularity predicted by the Penrose-Hawking singularity theorems. Standard cosmology interprets this as the "beginning" of the universe, where all matter and energy were concentrated at infinite density. The divergence is taken to signal a breakdown of General Relativity at extreme conditions, with the expectation that a quantum theory of gravity would be needed to describe physics at or near t = 0.
+**Explanation:** As the scale factor a → 0, density and spacetime curvature diverge—this is the initial cosmological singularity predicted by the Penrose-Hawking singularity theorems. Standard cosmology interprets this as the "beginning" of the universe, where all matter and energy were concentrated at infinite density. The divergence is taken to signal a breakdown of General Relativity at extreme conditions, with the expectation that a quantum theory of gravity would be needed to describe physics at or near t = 0.
 
 ---
 
@@ -1559,7 +1559,7 @@ At 10⁻¹⁹ seconds before: atoms and nuclei dissociated.
 As t → t_rip: a(t) → ∞, spacetime itself torn apart.
 ```
 
-**Standard Physics Interpretation:** This divergence is a prediction of phantom dark energy models. It tells us that the universe's fate depends critically on the nature of dark energy—whether it's a gentle heat death or violent disintegration. Current observations don't rule out w < -1, making this an active research area.
+**Explanation:** This divergence is a prediction of phantom dark energy models. It tells us that the universe's fate depends critically on the nature of dark energy—whether it's a gentle heat death or violent disintegration. Current observations don't rule out w < -1, making this an active research area.
 
 ---
 
@@ -1583,7 +1583,7 @@ As t → T* = 1.0 sec: ω → ∞.
 Energy dissipation ε = ν|ω|² would explode catastrophically.
 ```
 
-**Standard Physics Interpretation:** This is one of the Clay Mathematics Institute's Millennium Prize Problems. Proving whether such blow-ups can occur—or cannot—would revolutionize our understanding of turbulence. If they can occur, classical Navier-Stokes breaks down at small scales, potentially requiring molecular or quantum descriptions.
+**Explanation:** This is one of the Clay Mathematics Institute's Millennium Prize Problems. Proving whether such blow-ups can occur—or cannot—would revolutionize our understanding of turbulence. If they can occur, classical Navier-Stokes breaks down at small scales, potentially requiring molecular or quantum descriptions.
 
 ---
 
@@ -1603,7 +1603,7 @@ At 1 m: Tidal force ~10¹⁵ N.
 As r → 0: Tidal force → ∞ (infinite spaghettification).
 ```
 
-**Standard Physics Interpretation:** Penrose's Cosmic Censorship Hypothesis conjectures that naked singularities are forbidden—generic collapse always forms an event horizon. If naked singularities exist, they would break predictability in GR, as physics would cease at the singularity without a protective horizon. The debate tests GR's self-consistency.
+**Explanation:** Penrose's Cosmic Censorship Hypothesis conjectures that naked singularities are forbidden—generic collapse always forms an event horizon. If naked singularities exist, they would break predictability in GR, as physics would cease at the singularity without a protective horizon. The debate tests GR's self-consistency.
 
 ---
 
@@ -1627,7 +1627,7 @@ Planck scale: 1.6×10⁻³⁵ m (l_P).
 Below l_P: standard physics predicts quantum gravitational effects dominate; direct measurement is not currently possible.
 ```
 
-**Standard Physics Interpretation:** The Planck scale is defined as where quantum and gravitational effects would be of comparable strength. Standard physics treats this as a fundamental threshold where current theories (General Relativity and Quantum Field Theory) are expected to break down, requiring a unified theory of quantum gravity. Proposed approaches include string theory, loop quantum gravity, and causal set theory. Some interpretations suggest spacetime itself may become discrete or exhibit quantum fluctuations at this scale. The scale is extremely remote—current experiments probe distances roughly 10¹⁶ times larger—making direct experimental tests impractical with current technology.
+**Explanation:** The Planck scale is defined as where quantum and gravitational effects would be of comparable strength. Standard physics treats this as a fundamental threshold where current theories (General Relativity and Quantum Field Theory) are expected to break down, requiring a unified theory of quantum gravity. Proposed approaches include string theory, loop quantum gravity, and causal set theory. Some interpretations suggest spacetime itself may become discrete or exhibit quantum fluctuations at this scale. The scale is extremely remote—current experiments probe distances roughly 10¹⁶ times larger—making direct experimental tests impractical with current technology.
 
 ---
 
@@ -1650,7 +1650,7 @@ At |T - T_c| ~ 10⁻⁷ K (Gi × T_c): fluctuations comparable.
 Closer to T_c: mean field breaks down, critical fluctuations dominate.
 ```
 
-**Standard Physics Interpretation:** Mean field theory ignores correlations—it works when fluctuations are small. The Ginzburg criterion tells us how close to T_c we must be for fluctuations to dominate. BCS superconductivity works because electrons pair over long distances (large coherence length), making Gi tiny. Systems with short-range order require renormalization group methods.
+**Explanation:** Mean field theory ignores correlations—it works when fluctuations are small. The Ginzburg criterion tells us how close to T_c we must be for fluctuations to dominate. BCS superconductivity works because electrons pair over long distances (large coherence length), making Gi tiny. Systems with short-range order require renormalization group methods.
 
 ---
 
