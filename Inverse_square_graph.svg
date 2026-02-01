@@ -1,0 +1,28 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	width="450px" height="450px" viewBox="-40 -60 90 90">
+<title>Inverse square</title>
+<desc>Graphs of y = x^2 and y = √x&#x305;</desc>
+<defs>
+	<marker id="EA" viewBox="0 0 10 10" refX="10" refY="5"
+		markerUnits="strokeWidth" orient="auto"
+		markerWidth="6" markerHeight="6">
+		<polyline points="10,5 0,10 2,5 0,0 10,5" fill="#555"/>
+	</marker>
+	<pattern id="grid" width="10" height="10" x="0" y="0" patternUnits="userSpaceOnUse">
+		<path d="M0,0 H10 M0,0 V10" stroke-width=".5" fill="none" stroke="#777"/>
+	</pattern>
+</defs>
+<rect x="-40" y="-60" height="100%" width="100%" fill="url(#grid)" />
+<g fill="none" stroke-width=".75">
+<path d="M-40,0 h90 M0,30 v-90" stroke="#555" marker-end="url(#EA)" stroke-width=".5"/>
+<path d="M-40,40 l90,-90" stroke="#000"/>
+<path d="M-40,-80 Q-20,0 0,0 T40,-80" stroke="#F00"/>
+<path d="M0,0 Q0,-20 80,-40" stroke="#00F"/>
+</g>
+<g font-size="7" font-style="italic" font-family="New Century Schoolbook">
+	<text fill="black"><tspan x="-5" y="-55">y</tspan><tspan x="45" y="5">x</tspan></text>
+	<text x="13" y="-50" fill="red">y = x<tspan dy="-2" font-size="5">2</tspan></text>
+	<text x="30" y="-20" fill="blue">y = &#x221a;<tspan dy="-1">x&#x305;</tspan></text>
+	<text x="-30" y="27" transform="rotate(-45,-30,27)">x = y</text>
+</g>
+</svg>

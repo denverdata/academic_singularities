@@ -41,7 +41,7 @@ Read `agent/agent_rules.md` before making any edits. Key constraints:
 - Trust user-provided scientific concepts even if not widely accepted
 - No logical fallacies in any argument
 - Perform all calculations according to Relativistic Classical Physics (never treat relativistic components as negligible)
-- Never switch to quantum perspective - work entirely in classical physics
+- Never switch to quantum perspective or use a quantum explanation unless we are discssing quantum phenomena - work entirely in classical physics
 
 ### Writing Standards
 - Include in-line citations and bibliography

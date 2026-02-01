@@ -45,15 +45,15 @@ When you talk about lambda CDM, I want to know the current version of lambda CDM
 # Cosmic expansion. 
 # Lambda CDM 
 
-*Undersatanding ingularities, point masses, divergent systems and models beyond their realm of usability*
-# These include systems where the calculation "blows up", division by zero blowups, divergent systems, models that arebey9nd their domain of applicability, uv catastrophes, navier-Stokes turbulent force blowups. singularities, pointmasses, black-hole singulatities, Any kind of quantum blow-up or quantum incongruency that's based on some kind of a division by zero.
+*Undersatanding singularities, point masses, divergent systems and models beyond their realm of usability*
+# These include systems where the calculation "blows up", division by zero blowups, divergent systems, models that are beyond their domain of applicability, uv catastrophes, turbulent force blowups. physical point-masses, black-hole singularities.
 # Singularities as physical systems- these have not been observed
-# Singluaritirs in mathematics - these do not exist in physics nor mathematicas. As x-> infinity, 1/x does apprach 0. But a limit LITERALLY MEANS that the value will never be that limit or beyond. Those are the two things it can never be. That's the only meaning of limit. Further, because a ratio calculation represents floating point math, ther is NEVER ANY POSSIBILITY for a lierlal zero necessary for a division by zero. It might be considered an out of bounds error if the exponent gets too large to represent, but it is never a zero. Therefore, a sigularity is a mathematically impossible state.
-# Black hole singularities - this is a misconceotion. A black hole, despite its behavior associated with light, continues to be a physical system with dimensions and mass
+# Singularities in mathematics - these do not exist in physics nor mathematicas. As x-> infinity, 1/x does apprach 0. But a limit LITERALLY MEANS that the value will never be that limit or beyond. Those are the two things it can never be. That's the only meaning of limit. Further, because a ratio calculation represents floating point math, ther is NEVER ANY POSSIBILITY for a lierlal zero necessary for a division by zero. It might be considered an out of bounds error if the exponent gets too large to represent, but it is never a zero. Therefore, a sigularity is a mathematically impossible state.
+# Black hole singularities - this is a misconceotion. A black hole, despite its behavior associated with light, continues to be a physical system with dimensions and mass. It is not a singularity. 
 # Literal point mass - useful conceptually as a "locaton in space", but not literally as an object
 # Implied limits of scale - Plank scale or quantum scale does not mark a point where there is a fundamental change, this is an observatonaal phenomenon related to difference in scale and observational mechanism boundary 
 # The Cosmoligic Principle - The observations are solid, but the hypothesius of conclusion is based on a circumstance that does not exist.
 # Division by 0 "blow-ups"- they only happen with faulty mathematics; for every finite input there is a finite output. 
-# Numbers that approach 0 and then somehow become zero.
+# Numbers that approach 0 and then somehow becomes 0 - This is a mathematically impossible state. It is okay to round to apprporiate precision, but not to declare a divison by zero erro.
 
 **END OF AI AGENT RULES**
