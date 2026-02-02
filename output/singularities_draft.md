@@ -1,4 +1,4 @@
- The Fallacy of the Arbitrary - Exploring the Mathematics and Interpretation of Infinities, Negligibilities, and Singularities
+# Title: The Fallacy of the Arbitrary - Exploring the Mathematics and Interpretation of Infinities and Singularities
 
 # Abstract
 

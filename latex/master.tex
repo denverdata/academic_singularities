@@ -1,20 +1,19 @@
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %RSC Article Template with Section Structure
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[twoside,twocolumn,9pt]{article}
 \usepackage{extsizes}
-\usepackage[super,sort&compress,comma]{natbib}
+\usepackage[super,sort&compress,comma]{natbib} 
 \usepackage[version=3]{mhchem}
 \usepackage[left=1.5cm, right=1.5cm, top=1.785cm, bottom=2.0cm]{geometry}
 \usepackage{balance}
 \usepackage{mathptmx}
 \usepackage{siunitx}
 \usepackage{sectsty}
-\usepackage{graphicx}
+\usepackage{graphicx} 
 \usepackage{lastpage}
 \usepackage[format=plain,justification=justified,singlelinecheck=false,font={stretch=1.125,small,sf},labelfont=bf,labelsep=space]{caption}
 \usepackage{float}
@@ -31,7 +30,7 @@
 \usepackage{hyperref}
 \usepackage{mdframed}
 \usepackage{makecell}
-\usepackage{array} % Include in the preamble for vertical
+\usepackage{array} % Include in the preamble for vertical 
 \usepackage{enumitem}
 \usepackage{amssymb}
 \usepackage{amsmath}
@@ -63,15 +62,15 @@
 \makeatother
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-\renewcommand\footnoterule{\vspace*{1pt}%
-\color{cream}\hrule width 3.5in height 0.4pt \color{black}\vspace*{5pt}}
+\renewcommand\footnoterule{\vspace*{1pt}% 
+\color{cream}\hrule width 3.5in height 0.4pt \color{black}\vspace*{5pt}} 
 \setcounter{secnumdepth}{5}
 
-\makeatletter
-\renewcommand\@biblabel[1]{#1}
-\renewcommand\@makefntext[1]%
+\makeatletter 
+\renewcommand\@biblabel[1]{#1}            
+\renewcommand\@makefntext[1]% 
 {\noindent\makebox[0pt][r]{\@thefnmark\,}#1}
-\makeatother
+\makeatother 
 \renewcommand{\figurename}{\small{Fig.}~}
 \sectionfont{\sffamily\Large}
 \subsectionfont{\normalsize}
@@ -92,7 +91,7 @@
 \fancyfoot[RO]{\footnotesize{\sffamily{1--\pageref{LastPage} ~\textbar  \hspace{2pt}\thepage}}}
 \fancyfoot[LE]{\footnotesize{\sffamily{\thepage~\textbar\hspace{4.65cm} 1--\pageref{LastPage}}}}
 \fancyhead{}
-\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt} 
 \renewcommand{\footrulewidth}{0pt}
 \setlength{\arrayrulewidth}{1pt}
 \setlength{\columnsep}{6.5mm}
@@ -100,17 +99,17 @@
 %%%END OF FOOTER%%%
 
 %%%FIGURE SETUP - please do not change any commands within this section%%%
-\makeatletter
-\newlength{\figrulesep}
-\setlength{\figrulesep}{0.5\textfloatsep}
+\makeatletter 
+\newlength{\figrulesep} 
+\setlength{\figrulesep}{0.5\textfloatsep} 
 
-\newcommand{\topfigrule}{\vspace*{-1pt}%
+\newcommand{\topfigrule}{\vspace*{-1pt}% 
 \noindent{\color{cream}\rule[-\figrulesep]{\columnwidth}{1.5pt}} }
 
-\newcommand{\botfigrule}{\vspace*{-2pt}%
+\newcommand{\botfigrule}{\vspace*{-2pt}% 
 \noindent{\color{cream}\rule[\figrulesep]{\columnwidth}{1.5pt}} }
 
-\newcommand{\dblfigrule}{\vspace*{-1pt}%
+\newcommand{\dblfigrule}{\vspace*{-1pt}% 
 \noindent{\color{cream}\rule[-\figrulesep]{\textwidth}{1.5pt}} }
 
 \makeatother
@@ -121,19 +120,21 @@
   \begin{@twocolumnfalse}
 
   {  \noindent\includegraphics[height=30pt]{head_foot/dec}}\\
-  \normalsize\text{DOI: \href{https://doi.org/XX.XXXXX/XXXXXXXXX}{XX.XXXXX/XXXXXXXXX}}
+  \normalsize\text{DOI: \href{https://doi.org/10.55277/researchhub.0e0cgoor}{10.55277/researchhub.0e0cgoor}}
 {\hfill\raisebox{0pt}[0pt][0pt]{\includegraphics[height=55pt]{head_foot/RSC_LOGO_CMYK}}\\[1ex]
 }\par
 \vspace{1em}
 \sffamily
 \begin{tabular}{m{4.5cm} p{13.5cm} }
 
-\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{Article Title Here}} \\
+\includegraphics{head_foot/DOI} & \noindent\LARGE{\textbf{The Fallacy of the Arbitrary - Exploring the Mathematics and Interpretation of Infinities and Singularities}} \\
 \vspace{0.3cm} & \vspace{0.3cm} \\
- & \noindent\large{Author Name,$^{\dag}$\textit{$^{a}$}} \\
+ & \noindent\large{Thomas Damon DeGerlia,$^{\dag}$\textit{$^{a}$}} \\
+ & \noindent\small{Originally published: May 11, 2025 C.E. Mother's Day} \\
+& \noindent\small{Revision 0.10 June 15, 2025 C.E. Father's Day} \\
  \vspace{0.3cm} & \vspace{0.3cm} \\
-
-\includegraphics{head_foot/dates} & \noindent\normalsize{ABSTRACT: Abstract text goes here. Provide a concise summary of the work.}
+ 
+\includegraphics{head_foot/dates} & \noindent\normalsize{ABSTRACT: A common mathematical error is regularly invoked in the context of general Relativity, cosmic expansion, and other phenomena we observe. And this error relates to a declaration of division by 0 and, therefore, a blow-up of a particular formula or function. Specifically, this suggests that if something is very small from our perspective, we can neglect its contribution. And from this one small presumption, we impart a logical fallacy, a mathematical error, and also carry forward a physical misunderstanding. It is to contrive an artificial zero from a number that seems subjectively very small, such that one can declare division by zero or blow up. The explanation for the failure, whether a blow-up, division by zero, or any other number of creative descriptions, always roots in the same logical basis. That something is infinite and therefore something else is zero, and therefore a division by zero occurs, and therefore a system has blown up or gone out of its usable range or has transitioned to another model or any number of different wording that might be used. In each and every case, the formula presented is valid for every valid input. Meaning, if you want to know its value at $1 \times 10^{\text{googol}}$, you can do that and get a finite number back. In this paper, we provide a categorical decomposition of these arguments and explore their proper interpretation and calculation. From this, we demonstrate that there really is no physical interpretation of a point mass or mass singularity that has any factual basis. Mass must always accompany spatial distribution. While it may feel negligible from some perspectives, it truly is not.}
 \end{tabular}
 
  \end{@twocolumnfalse} \vspace{0.6cm}
@@ -146,27 +147,98 @@
 \rmfamily
 \vspace{-1cm}
 %%%FOOTNOTES%%%
-\footnotetext{$^{a}$~Affiliation, Address. E-mail: email@example.com}
-\footnotetext{\dag~Author biographical note.}
-
-
-
+\footnotetext{$^{a}$~DeGerlia Expert Consulting, 3000 Lawrence Street, Denver, CO, United States of America. E-mail: tom.degerlia@tomdegerlia.com}
+\footnotetext{\dag~Mr. DeGerlia, principal of DeGerlia Expert Consulting, holds a B.S. in chemistry and mathematics from Metropolitan State University of Denver and has completed graduate work in chemistry and software engineering at the University of Colorado. Tom brings over 35 years of professional and academic multidisciplinary scientific problem-solving experience across chemistry, physical chemistry, artificial intelligence, software engineering, archaeology, forensics, and psychology.}
 \section{Introduction}
-Introduction text goes here.
+There is a natural tendency for anyone observing the universe to see things only from their own perspective, which is entirely understandable, because that's the only perspective from which they can observe. But as we learn, we realize that anything can be observed by anyone, and those observations are dependent entirely upon the perspective from which it's observed. Describing the same system from two different observational perspectives. We have been guilty many times of extending ourselves a privileged position in the universe. Each time we cross a more nuanced bridge, we must again humbly accept our insignificance. There was a time when we thought the Earth was the center of the universe. Why? Because that's how it looks to us, and we've never looked at it from anyone else's perspective. Spatial scale and physical phenomena associated with such represent the next frontier in physics, from which vast knowledge, clarity, and opportunities will emerge. Not too long ago, we believed that atoms were the smallest unit of matter. We know now that that presumption was incorrect, and we have continued to reveal smaller constituent particles, each of which we, for some period of time, believe is the fundamental unit of matter.\\
+\\
+As is evidenced by the two examples above, humans commonly define anything beyond the periphery of what we can observe as non-existent. If I reach deep, it feels born of existential protectionism; kid gloves for our egos. Something analogous to hiding under a security blanket to protect yourself from the thunder. The unknown is unsettling, and our ego prefers the safety of complete knowledge. But again, the fundamental reason is that it's easy to presume that the only perspective we have is the only perspective there is. Self-deception would be very difficult to detect in such circumstances, especially with a significant payout in the form of psychological comfort. These are recurring themes for the pervasive mathematical challenges I describe herein.
 
-\section{Methods}
-Methods text goes here.
+\subsection{Looking to the Stars}
+If we look up at the night sky, most stars don't stimulate more than one cone (the light detector) in our eyes, which means, from our perspective, a star could get no smaller; it's a point. We see their celestial behavior, so we know celestial objects have mass. Without more information, it would be easy to assume that these could be only point masses. Well, that's not true, but it's approximately true from our perspective. But if we were to look at how things behave leading up to that limit of detection, they're extremely consistent. If we presumed that the only change at the edge of our ability to observe was simply our ability to observe, we would have a much clearer understanding of the universe than we do under the weight of presumed boundaries. We must resist the tendency to think only in terms of our perspective, because that's where the fallacy lies. We should look at the trends and ask ourselves: why would the trends stop? Why would spatial extent cease to exist beyond some scale if it existed observably all the way to that scale?\\
+\\
+The simple answer is: It does not cease to exist. It just ceases to be visible to us from our scale of observation, for a variety of reasons. And thus one should never trust one's instinct to disregard something that feels insignificant. To presume negligibility, and then to extend that by rounding to zero, and therefore producing a division by zero error. It's a faulty multi-step logical construct. The commonly used terms ``negligible,'' ``arbitrarily large,'' ``very small,'' and ``singularity,'' are all red flags for potential misunderstanding, signifying that many people today are still at risk of accepting or even representing, God forbid, the ``fallacy of the arbitrary'' as factual interpretation.
 
-\section{Results}
-Results text goes here.
+\section{Review of Mathematical Concepts}
+Before we dig too deep into the various arguments represent incorrect usage or conclusions, let's briefly review some relevant mathematical concepts. The following are more or less the ``dictionary definitions'' followed by an example that demonstrates the proper usage and interpretation.
 
-\section{Discussion}
-Discussion text goes here.
+\subsection{Asymptotic Limit}
+\textbf{Definition:}
+In analytic geometry, an asymptote of a curve is a line such that the distance between the curve and the line approaches zero as one or both of the $x$ or $y$ coordinates tends to infinity. More generally, it describes the limiting behavior of a function as it approaches a value where it may be undefined. It is the mathematical formalization of a direction of travel rather than a destination; the curve and the asymptote approach each other ``at infinity,'' meaning they get arbitrarily close but the gap never truly closes within any finite range.\\
 
-\section{Conclusion}
-Conclusion text goes here.
+\noindent\textbf{Mathematical Representation:}
+The behavior is defined using the limit notation:
+\begin{equation}
+\lim_{x \to c} f(x) = L \quad \text{or} \quad \lim_{x \to \infty} f(x) = L
+\end{equation}
+Where:
+\begin{itemize}
+    \item $c$ is the point of approach (vertical asymptote).
+    \item $L$ is the value the system trends toward (horizontal asymptote).
+\end{itemize}
+This notation emphasizes the \textit{process} of approaching. It explicitly avoids the error of stating $f(c) = L$, which is often where the ``division by zero'' or ``singularity'' fallacies are introduced.\\
 
-\balance
+\noindent\textbf{Behavioral Discussion:}
+The asymptotic limit describes the behavior of a function as it nears a boundary without ever requiring the function to occupy that boundary. For every finite input $x$ leading up to $c$, the function $f(x)$ produces a finite, tangible output. The error in many interpretations lies in treating the limit $L$ as a value attained at a specific coordinate, effectively ``rounding to zero'' the remaining distance. This ignores the infinite progression of values that exist as $x$ approaches $c$. There is always a ``universe of consideration'' between the current state and the limit; to collapse this distance is to commit the fallacy of the arbitrary.\\
+
+\noindent\textbf{Example: The Inverse Scale}\\
+Consider the function $f(x) = \frac{1}{x}$. As $x$ approaches $0$ from the positive side, $f(x)$ increases toward infinity.\\
+\textit{Analysis:}
+If we choose an $x = 10^{-100}$, $f(x)$ is $10^{100}$. Whether we label this value ``massive'' or ``negligible'' depends entirely on our chosen scale of reference; if our units are $10^{100}$ meters, this result is merely $1$. If we move to $x = 10^{-1,000,000}$, the output is $10^{1,000,000}$. This is $10^{999,900}$ times larger than the previous state, yet it remains finite. The ``singularity'' at $x=0$ is never reached because $x$ can always be halved, and halved again, forever. The trend toward infinity is the asymptote; the perceived ``blow-up'' is merely a failure of the observer to maintain a consistent relative perspective as the scale shifts.
+
+\subsection{Negligibility}
+It is common for people to think of negligibility from their perspective, which is a typical human-centric way of looking at things. There's nothing wrong with that perspective. It's 100\% correct, just like any other perspective. However, making a presumption of negligibility based on one's own scale invites mathematical problems. You might say that $10^{-50}$ meters is extraordinarily small, but it's not compared to $10^{-100}$ meters. For every number that you can cite, I can cite one that's bigger or smaller in every single circumstance forever.\\
+\\
+Where could this become a problem? When you are dealing with numbers that are outside of the human scale, there is a tendency to discard those, and you can't do that. You need not ever assess whether something is negligible; the math will take care of that for you. If you use scientific notation and maintain full precision until the end, and then round to the appropriate number of significant figures, you will never run into a problem of negligibility or infinity, because things are never negligible or infinite. One can always come up with something more negligible than that.\\
+
+\noindent\textbf{Example:}\\
+In classical mechanics, the Lorentz factor $\gamma = 1/\sqrt{1 - v^2/c^2}$ differs from 1 by the amount $v^2/c^2$. For everyday velocities ($v = 100$ m/s, $c = 3\times10^{8}$ m/s), this gives $v^2/c^2 \approx 10^{-13}$. Physicists routinely drop this term entirely, declaring it ``negligible,'' setting $\gamma = 1$ exactly. But $10^{-13}$ is not zero. At sufficiently precise measurements or over sufficient time/distance scales, this ``negligible'' term accumulates to measurable effects. The term was discarded based on human scale intuition, not mathematical necessity.
+
+\subsection{Infinity}
+Infinity is a tough concept, but I think of it like this: it's not a number; it's the absence of a boundary. It's an absence of an upper boundary. In this context, to declare something that is arbitrarily large as infinity is a fallacy. There's no number that equals infinity because for every number you can give me, I can come up with one that's much larger or much smaller forever, infinitely. In this case, infinity is the thing you approach forever. And in fact, it often is the limit to an equation, to many equations. That is the limit. Something will go to infinity. That doesn't mean it ever attains infinity. That means there's no boundary to how big it can be at any given time. If you think of things contained within a box, the boundary is the box. Something that is contained within infinity doesn't have a box around it. So infinity isn't the number, it isn't the box, it's the absence of the box. You could fit an infinite number of boxes in infinity. You could fit an infinite number of infinities within infinity. Because infinity isn't a number. It's the absence of a boundary. In mathematics, infinities are not attainable because they're not a number.\\
+
+\noindent\textbf{Example:}\\
+The Schwarzschild metric for a black hole contains the term $(1 - 2GM/rc^2)$. As radius $r$ approaches zero ($r \to 0$), this term approaches negative infinity, and its reciprocal approaches positive infinity. Physicists claim this represents a ``singularity'' where the mathematics ``breaks down.'' However, $r$ never actually equals zero---it approaches zero as a limit. The metric remains mathematically valid at every finite $r$ value, no matter how small. The claimed breakdown occurs only when they incorrectly treat the limit as an attained value.
+
+\subsection{Division by Zero}
+Division by zero is, in fact, a mathematical error. However, I would describe this as a mathematical error on the user's part. If there were instructions that came with division, they would surely say something like: ``Warning, do not use this formula to calculate the fraction of a set of none, because you will get a meaningless answer.'' As you can imagine, conceptually, to take the fraction of something that doesn't exist is nonsensical.\\
+\\
+If you have used a calculator, dividing a number by zero simply requires you to enter the number, press the ``$\div$'' symbol, then the zero symbol, and hit Enter (presuming standard calculator notation). It will return a division-by-zero error. Before the advent of the calculator, you would have been using long division with a pen and paper. In those days, you wouldn't take the time to do a calculation on paper before you knew very clearly what it was you were trying to take a fraction of; it was just too much effort to make frivolous calculations. But there was also a world where calculating high-precision things was a lot of work. A lot of work. And it may have seemed attractive to accept certain mathematical inconsistencies.\\
+\\
+If you're doing floating-point math on a computer, it's going to return infinity or give you an out-of-range error because the result is an arbitrarily large number---not arbitrary in the sense that it's meaningless, but arbitrary in the sense that it can't be represented. There are just too many digits to carry around for any regular system of precision. That said, to ever round a number to zero in order to arrive at such an error is a fallacy. I would advise people to let the mathematics do the work rather than trying to impose human judgment into the process. Stated simply, if no one were ever to make the mistake of rounding a very small number to zero in order to arrive at a division by zero error, we would have solved many of the misconceptions associated with the most fundamental principles of the physical universe. These misconceptions are far-reaching and pervasive.\\
+\\
+To explain further, in computer science, there is the notion of floating-point arithmetic---that is, arithmetic that does not involve integers. In that world, which is every bit as accurate a way to describe our universe, everything is always some infinitely precise variant that could be very close or not to integer values. In integer operations, where one divides something by zero, that zero is interpreted to be a literal zero with infinite precision---an integer version of zero. It's a non-number; there's no number there. That's a world where division by zero may have meaning. But in the world of floating-point, there's no such thing as an integer zero, unless defined as such. Floating-point mathematics treats everything as scientific notation and presumes that even though you can't represent infinite precision, that infinite precision exists. As such, you would never see a zero on the denominator for any equation. You would see something that was perhaps a very, very, very small number. At some point, the number gets so small that the computer can no longer represent it. In computer science, for standard double-precision computing, a typical limit for numerical representation would be an exponent of $\pm308$---that is, approximately $1\times10^{\pm308}$. That's an extraordinarily large or extraordinarily small number. $10^{100}$ is a googol. A googolplex is probably the biggest number you would ever need to use in calculations involving human matters. The $\pm308$ range is a pretty safe bound. In this world, you will never get a division by zero error, because it doesn't exist. Properties in the natural world are always infinitely precise, limited only by our ability to observe. Thus, division by zero, as I stated, could never be reported---it could not be attained. The error would be one that refers to a number outside the representational bounds, meaning a number smaller than approximately $1\times10^{-308}$ or larger than approximately $1\times10^{308}$.\\
+
+\noindent Comparison of floating-point ``division by zero'' responses by language:
+\begin{itemize}
+    \item \textbf{Python}: OverflowError: (34, `Numerical result out of range')
+    \item \textbf{C/C++}: Returns $\pm$HUGE\_VAL or $\pm$INFINITY, sets errno to ERANGE
+\end{itemize}
+Modern computing and floating-point mathematics make clear that division by zero is an unacceptable natural circumstance. It's a false assertion of error when we're really just talking about something that's too big or too small to represent, and never so small that it becomes undefined. A division by zero error is a mathematical impossibility in nature.\\
+
+\noindent\textbf{Example:}\\
+The electric field at a distance $r$ from a point charge is $E = kQ/r^2$. As $r$ approaches zero, physicists might round small $r$ values (say $r = 10^{-200}$ m) to exactly zero, claiming a ``singularity.'' However, $E = kQ/(10^{-200})^2 = kQ \times 10^{400}$ exceeds representable bounds and produces an overflow error, not division by zero. The calculation remains mathematically valid---the computer simply can't represent the result. Only by artificially inserting $r = 0$ does the false ``division by zero'' appear. For every finite input, there will be a finite output. Infinity and zero should not be interpreted as actual numbers, but rather as the absence of boundaries. One approaching zero, and one approaching infinity.
+
+\subsection{Divergence}
+Divergence reflects an actual mathematical phenomenon. For a function like $y = 1/x$, as $x$ approaches zero, $y$ approaches infinity. In both cases, these represent limits approached asymptotically---neither is ever attained. When you're looking at a standard x-y graph of $y = 1/x$ (for positive $x$), it's easy to visualize infinity extending off to the right along the x-axis, but it's not so easy to visualize the corresponding infinity along the y-axis as $x$ approaches zero from the right. The function never reaches $x = 0$. As it gets arbitrarily close, the y-values grow arbitrarily large. Far to the right, the graph appears nearly flat---very small increments in $y$ for large changes in $x$. But near zero on the x-axis, very small increments in $x$ produce enormous changes in $y$. This is divergence: unbounded growth as the function approaches a limit.\\
+\\
+That said, to my knowledge, this divergence still returns a finite output for every finite input. There is no system, no matter how small or large, that cannot be modeled, with appropriate precision. It is not, under any circumstances, a tangible indication of transition to another model or a failure of the existing model.
+
+\vspace{1em}
+\section{Review of Physics Principles}
+\nopagebreak[4]
+\subsection{The Relativistic Regime}
+Classical physics is just relativistic physics without the added precision needed at extreme scales. So one need not delineate those two as separate regimes. We simply learned about one before we learned about the details we were missing at near-scale.
+
+\subsection{Quantum Regime}
+Again, there is no actual transition to another regime. These are two equally accurate ways to look at things, one of which is very difficult to observe unless you get a huge difference in scale, and the other is very difficult to observe if you get too big a difference in scale. They are both correct. They describe the same universe.
+
+\subsection{Planck Scale}
+The Planck scale is often erroneously cited as a cutoff beyond which one cannot use classical relativistic formulas. I do understand that there is an observational perspective from which quantum is the only meaningful way to look at things, due to observational challenges. But that doesn't state, or even imply, that the Planck scale is that point. In fact, there's no indication of a point. The Planck scale is considerably smaller than the scale at which we have to transition to indirect observation. So it probably means something slightly different from that. It may not mean much; it might just be the convergence point of three different formulas cross-referenced. There is no reason to believe that it represents a minimum scale, despite the fact that we have not observed anything in that range.
+
+%%%REFERENCES%%%
+\bibliography{rsc} %You need to replace "rsc" on this line with the name of your .bib file
+\bibliographystyle{rsc} %the RSC's .bst file
 \balance
 \clearpage
 \end{document}

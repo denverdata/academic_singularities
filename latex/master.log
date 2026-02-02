@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.3)  25 OCT 2025 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.3)  2 FEB 2026 04:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,122 +871,135 @@ Package hyperref Info: Link coloring OFF on input line 45.
 \openout3 = `master.out'.
 
 \figrulesep=\skip152
-<head_foot/dec.pdf, id=48, 332.24126pt x 80.3pt>
+<head_foot/dec.pdf, id=52, 332.24126pt x 80.3pt>
 File: head_foot/dec.pdf Graphic file (type pdf)
 <use head_foot/dec.pdf>
-Package pdftex.def Info: head_foot/dec.pdf  used on input line 140.
+Package pdftex.def Info: head_foot/dec.pdf  used on input line 142.
 (pdftex.def)             Requested size: 124.12375pt x 30.0pt.
-<head_foot/RSC_LOGO_CMYK.pdf, id=50, 275.0275pt x 183.68625pt>
+<head_foot/RSC_LOGO_CMYK.pdf, id=54, 275.0275pt x 183.68625pt>
 File: head_foot/RSC_LOGO_CMYK.pdf Graphic file (type pdf)
 <use head_foot/RSC_LOGO_CMYK.pdf>
-Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf  used on input line 140.
+Package pdftex.def Info: head_foot/RSC_LOGO_CMYK.pdf  used on input line 142.
 (pdftex.def)             Requested size: 82.34941pt x 55.0pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
-40.
+42.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 140.
+ 142.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 140.
+ 142.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 140.
+ 142.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 140.
+ 142.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-40.
+42.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
-<head_foot/DOI.pdf, id=51, 118.4425pt x 10.0375pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+<head_foot/DOI.pdf, id=55, 118.4425pt x 10.0375pt>
 File: head_foot/DOI.pdf Graphic file (type pdf)
 <use head_foot/DOI.pdf>
-Package pdftex.def Info: head_foot/DOI.pdf  used on input line 140.
+Package pdftex.def Info: head_foot/DOI.pdf  used on input line 142.
 (pdftex.def)             Requested size: 118.4422pt x 10.03746pt.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 140.
+(Font)              size <14.4> substituted on input line 142.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 140.
+(Font)              using `T1/cmss/bx/n' instead on input line 142.
 
 
 LaTeX Font Warning: Font shape `T1/cmss/bx/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 140.
+(Font)              size <14.4> substituted on input line 142.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
-<head_foot/dates.pdf, id=52, 79.29625pt x 64.24pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+<head_foot/dates.pdf, id=56, 79.29625pt x 64.24pt>
 File: head_foot/dates.pdf Graphic file (type pdf)
 <use head_foot/dates.pdf>
-Package pdftex.def Info: head_foot/dates.pdf  used on input line 140.
+Package pdftex.def Info: head_foot/dates.pdf  used on input line 142.
 (pdftex.def)             Requested size: 79.29604pt x 64.23984pt.
 
-Overfull \hbox (7.21284pt too wide) in paragraph at lines 140--140
+Overfull \hbox (7.21284pt too wide) in paragraph at lines 142--142
 [][] 
  []
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 148.
+Package hyperref Warning: Ignoring empty anchor on input line 150.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 149.
+Package hyperref Warning: Ignoring empty anchor on input line 151.
 
 LaTeX Font Info:    Trying to load font information for TS1+bch on input line 1
-49.
+51.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 153.
+(Font)              using `T1/cmss/m/n' instead on input line 152.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
+
+Overfull \vbox (1.75119pt too high) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<head_foot/LF.pdf, id=53, 154.5775pt x 8.03pt>
+<head_foot/LF.pdf, id=57, 154.5775pt x 8.03pt>
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 183.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 161.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/20
@@ -995,23 +1008,112 @@ ocal/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/20
 
  <./head_foot/dec.pdf> <./head_foot/RSC_LOGO_CMYK.pdf> <./head_foot/DOI.pdf> <.
 /head_foot/dates.pdf> <./head_foot/LF.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \vbox (badness 1314) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 181--183
+\T1/bch/b/n/9 Behavioral Dis-cus-sion: \T1/bch/m/n/9 The asymp-totic limit de-s
+cribes the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--193
+
+ []
 
 
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 274.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 196.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
+
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 204--211
+\T1/bch/m/n/9 If you have used a cal-cu-la-tor, di-vid-ing a num-ber by zero
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
+
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 204--211
+\T1/bch/m/n/9 If you're do-ing floating-point math on a com-puter, it's go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
+
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 204--211
+\T1/bch/m/n/9 though you can't rep-re-sent in-fi-nite pre-ci-sion, that in-fi-n
+ite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
+
+ []
+
+
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 367.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 214.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [3]
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--226
+
+ []
+
+
+
+No file master.bbl.
 
 
 
@@ -1020,7 +1122,7 @@ Package balance Warning: You have called \balance in second column
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 386.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 243.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [4] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1038,35 +1140,36 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 96029609E002DA38922B946EF5A5E6E2;3200.
+(rerunfilecheck)             Checksum: 0BFAAE21D6BEDF8ACCEDF37670094370;1708.
  ) 
 Here is how much of TeX's memory you used:
- 21924 strings out of 473584
- 421095 string characters out of 5728329
- 1954905 words of memory out of 5000000
- 44429 multiletter control sequences out of 15000+600000
- 616634 words of font info for 137 fonts, out of 8000000 for 9000
+ 21919 strings out of 473584
+ 421006 string characters out of 5728329
+ 1953905 words of memory out of 5000000
+ 44430 multiletter control sequences out of 15000+600000
+ 619491 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,15n,80p,1105b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,15n,80p,2009b,989s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/tex
-live/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texli
-ve/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf
--dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on master.pdf (4 pages, 189265 bytes).
+r/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/tex
+live/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on master.pdf (4 pages, 207360 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 17 named destinations out of 1000 (max. 500000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
