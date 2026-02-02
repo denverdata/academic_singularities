@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.3)  2 FEB 2026 04:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.3)  2 FEB 2026 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,12 +1034,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+<Hyperbola_one_over_x.svg.png, id=94, 1927.2pt x 1445.4pt>
+File: Hyperbola_one_over_x.svg.png Graphic file (type png)
+<use Hyperbola_one_over_x.svg.png>
+Package pdftex.def Info: Hyperbola_one_over_x.svg.png  used on input line 189.
+(pdftex.def)             Requested size: 178.65408pt x 133.98412pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 190.
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
 
  []
 
@@ -1047,50 +1059,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--193
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 196.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 201.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+[2 <./Hyperbola_one_over_x.svg.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--211
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
 
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 204--211
+Underfull \hbox (badness 1189) in paragraph at lines 212--219
 \T1/bch/m/n/9 If you have used a cal-cu-la-tor, di-vid-ing a num-ber by zero
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
 
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 204--211
+Underfull \hbox (badness 1024) in paragraph at lines 212--219
 \T1/bch/m/n/9 If you're do-ing floating-point math on a com-puter, it's go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
 
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 204--211
+Underfull \hbox (badness 2261) in paragraph at lines 212--219
 \T1/bch/m/n/9 though you can't rep-re-sent in-fi-nite pre-ci-sion, that in-fi-n
 ite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--219
 
  []
-
-
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1099,22 +1114,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 214.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 219.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--226
+Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
  []
 
 
 
-No file master.bbl.
+(./master.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+3.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+[]\T1/bch/m/n/9 Wikimedia Com-mons, \T1/bch/m/it/9 File:Hyperbola one over x.sv
+g\T1/bch/m/n/9 ,
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+\T1/bch/m/n/9 2008, []$\T1/cmtt/m/n/9 https : / / commons . wikimedia . org / w
+iki / File :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--29
+\T1/cmtt/m/n/9 Hyperbola _ one _ over _ x . svg$[]\T1/bch/m/n/9 , Li-censed un-
+der CC BY-SA
+ []
+
+)
 
 
 Package balance Warning: You have called \balance in second column
@@ -1122,7 +1159,7 @@ Package balance Warning: You have called \balance in second column
 
 File: head_foot/LF.pdf Graphic file (type pdf)
 <use head_foot/LF.pdf>
-Package pdftex.def Info: head_foot/LF.pdf  used on input line 243.
+Package pdftex.def Info: head_foot/LF.pdf  used on input line 251.
 (pdftex.def)             Requested size: 173.26239pt x 9.0pt.
 [4] 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -1143,13 +1180,13 @@ Package rerunfilecheck Info: File `master.out' has not changed.
 (rerunfilecheck)             Checksum: 0BFAAE21D6BEDF8ACCEDF37670094370;1708.
  ) 
 Here is how much of TeX's memory you used:
- 21919 strings out of 473584
- 421006 string characters out of 5728329
+ 21999 strings out of 473584
+ 422839 string characters out of 5728329
  1953905 words of memory out of 5000000
- 44430 multiletter control sequences out of 15000+600000
- 619491 words of font info for 138 fonts, out of 8000000 for 9000
+ 44495 multiletter control sequences out of 15000+600000
+ 628938 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,15n,80p,2009b,989s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,15n,80p,2009b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/
@@ -1162,14 +1199,15 @@ exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/tex
 live/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on master.pdf (4 pages, 207360 bytes).
+024/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on master.pdf (4 pages, 316150 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

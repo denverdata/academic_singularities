@@ -183,7 +183,15 @@ The asymptotic limit describes the behavior of a function as it nears a boundary
 
 \noindent\textbf{Example: The Inverse Scale}\\
 Consider the function $f(x) = \frac{1}{x}$. As $x$ approaches $0$ from the positive side, $f(x)$ increases toward infinity.\\
-\textit{Analysis:}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\columnwidth]{Hyperbola_one_over_x.svg.png}
+\caption{Graph of the function $y = 1/x$, demonstrating the asymptotic behavior as $x$ approaches zero and as $x$ approaches infinity. The function never reaches $x=0$ or $y=0$, but approaches them asymptotically.\cite{wikimedia_hyperbola}}
+\label{fig:hyperbola}
+\end{figure}
+
+\noindent\textit{Analysis:}
 If we choose an $x = 10^{-100}$, $f(x)$ is $10^{100}$. Whether we label this value ``massive'' or ``negligible'' depends entirely on our chosen scale of reference; if our units are $10^{100}$ meters, this result is merely $1$. If we move to $x = 10^{-1,000,000}$, the output is $10^{1,000,000}$. This is $10^{999,900}$ times larger than the previous state, yet it remains finite. The ``singularity'' at $x=0$ is never reached because $x$ can always be halved, and halved again, forever. The trend toward infinity is the asymptote; the perceived ``blow-up'' is merely a failure of the observer to maintain a consistent relative perspective as the scale shifts.
 
 \subsection{Negligibility}
@@ -195,7 +203,7 @@ Where could this become a problem? When you are dealing with numbers that are ou
 In classical mechanics, the Lorentz factor $\gamma = 1/\sqrt{1 - v^2/c^2}$ differs from 1 by the amount $v^2/c^2$. For everyday velocities ($v = 100$ m/s, $c = 3\times10^{8}$ m/s), this gives $v^2/c^2 \approx 10^{-13}$. Physicists routinely drop this term entirely, declaring it ``negligible,'' setting $\gamma = 1$ exactly. But $10^{-13}$ is not zero. At sufficiently precise measurements or over sufficient time/distance scales, this ``negligible'' term accumulates to measurable effects. The term was discarded based on human scale intuition, not mathematical necessity.
 
 \subsection{Infinity}
-Infinity is a tough concept, but I think of it like this: it's not a number; it's the absence of a boundary. It's an absence of an upper boundary. In this context, to declare something that is arbitrarily large as infinity is a fallacy. There's no number that equals infinity because for every number you can give me, I can come up with one that's much larger or much smaller forever, infinitely. In this case, infinity is the thing you approach forever. And in fact, it often is the limit to an equation, to many equations. That is the limit. Something will go to infinity. That doesn't mean it ever attains infinity. That means there's no boundary to how big it can be at any given time. If you think of things contained within a box, the boundary is the box. Something that is contained within infinity doesn't have a box around it. So infinity isn't the number, it isn't the box, it's the absence of the box. You could fit an infinite number of boxes in infinity. You could fit an infinite number of infinities within infinity. Because infinity isn't a number. It's the absence of a boundary. In mathematics, infinities are not attainable because they're not a number.\\
+Infinity is a tough concept, but I think of it like this: it's not a number; it's the absence of a boundary. It's an absence of an upper boundary. In this context, to declare something that is arbitrarily large as infinity is a fallacy. There's no number that equals infinity because for every number you can give me, I can come up with one that is much larger or much smaller forever, infinitely. In this case, infinity is the thing you approach forever. And in fact, it often is the limit to an equation, to many equations. That is the limit. Something will go to infinity. That doesn't mean it ever attains infinity. That means there's no boundary to how big it can be at any given time. If you think of things contained within a box, the boundary is the box. Something that is contained within infinity doesn't have a box around it. So infinity isn't the number, it isn't the box, it's the absence of the box. You could fit an infinite number of boxes in infinity. You could fit an infinite number of infinities within infinity. Because infinity isn't a number. It's the absence of a boundary. In mathematics, infinities are not attainable because they're not a number.\\
 
 \noindent\textbf{Example:}\\
 The Schwarzschild metric for a black hole contains the term $(1 - 2GM/rc^2)$. As radius $r$ approaches zero ($r \to 0$), this term approaches negative infinity, and its reciprocal approaches positive infinity. Physicists claim this represents a ``singularity'' where the mathematics ``breaks down.'' However, $r$ never actually equals zero---it approaches zero as a limit. The metric remains mathematically valid at every finite $r$ value, no matter how small. The claimed breakdown occurs only when they incorrectly treat the limit as an attained value.
